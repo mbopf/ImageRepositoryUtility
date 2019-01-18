@@ -1,4 +1,5 @@
 # Old subversion stuff
 #######################
-.svn
-
+.svn*
+.svn/entries
+.svn/dir_props
