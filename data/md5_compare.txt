@@ -1,0 +1,70 @@
+mysql> SELECT a.origFilename, b.origFilename, a.imageType FROM imageData a, imageData b WHERE a.md5=b.md5 AND a.origFilename != b.origFilename AND a.origFilename < b.origFilename ORDER BY a.origFilename;
++----------------+----------------+-----------+
+| origFilename   | origFilename   | imageType |
++----------------+----------------+-----------+
+| 30373.5784.tif | 30374.5784.tif | cervigram |
+| 30373.5785.tif | 30374.5785.tif | cervigram |
+| 30373.5786.tif | 30374.5786.tif | cervigram |
+| 30373.5787.tif | 30374.5787.tif | cervigram |
+| 30373.5792.tif | 30374.5792.tif | cervigram |
+| 30373.5793.tif | 30374.5793.tif | cervigram |
+| 30373.5794.tif | 30374.5794.tif | cervigram |
+| 30373.5795.tif | 30374.5795.tif | cervigram |
+| 30373.5796.tif | 30374.5796.tif | cervigram |
+| 30373.5797.tif | 30374.5797.tif | cervigram |
+| 30373.5802.tif | 30374.5802.tif | cervigram |
+| 30373.5803.tif | 30374.5803.tif | cervigram |
+| 31265.4349.tif | 31265.7349.tif | cervigram |
+| LB13804.TIF    | LB13805.TIF    | denvu     |
+| ZH0757-1.jpg   | ZH0757-2.jpg   | cervigram |
+| ZH1243-1.jpg   | ZH1243-2.jpg   | cervigram |
+| ZJ27512.TIF    | ZJ27513.TIF    | denvu     |
+| ZJ2752.TIF     | ZJ27523.TIF    | denvu     |
+| ZJ28244.TIF    | ZJ28604.TIF    | denvu     |
+| ZJ34073.TIF    | ZJ35533.TIF    | denvu     |
+| ZJ34541.TIF    | ZJ35541.TIF    | denvu     |
+| ZJ38945.TIF    | ZJ39121.TIF    | denvu     |
+| ZJ39954.TIF    | ZJ39995.TIF    | denvu     |
+| ZJ72012.TIF    | ZJ73012.TIF    | denvu     |
+| ZJ72013.TIF    | ZJ73013.TIF    | denvu     |
+| ZJ80502.TIF    | ZJ80512.TIF    | denvu     |
+| ZP15311.TIF    | ZP15315.TIF    | denvu     |
++----------------+----------------+-----------+
+27 rows in set (4.47 sec)
+
+
+## Following query sorted by md5 in case three or more images have same md5
+mysql> SELECT a.origFilename, b.origFilename, a.md5 FROM imageData a, imageData b WHERE a.md5=b.md5 AND a.origFilename != b.origFilename AND a.origFilename < b.origFilename ORDER BY md5;
++----------------+----------------+----------------------------------+
+| origFilename   | origFilename   | md5                              |
++----------------+----------------+----------------------------------+
+| ZJ2752.TIF     | ZJ27523.TIF    | 064a6a0199b45441ac753f3b80ee904c |
+| ZJ80502.TIF    | ZJ80512.TIF    | 0f812c5d916ec5567df5677c848fa33f |
+| ZJ28244.TIF    | ZJ28604.TIF    | 0fb7bf65526cc14116ce1a8ef1691c38 |
+| ZH1243-1.jpg   | ZH1243-2.jpg   | 15d0eba3faef21dae4808e199e2f286d |
+| ZJ39954.TIF    | ZJ39995.TIF    | 2948b58079ba030799cc4f70a31ed537 |
+| 30373.5785.tif | 30374.5785.tif | 4d08d45821cde7504842a34d646dd74e |
+| 30373.5792.tif | 30374.5792.tif | 4fa182ed8b8db68e6a0232bb6ee73e42 |
+| ZJ72013.TIF    | ZJ73013.TIF    | 4fa9c51ae99956695f43ffd26a31ebf2 |
+| ZH0757-1.jpg   | ZH0757-2.jpg   | 5b8ed6d9506d40a6633ec7ff46902aa0 |
+| 30373.5793.tif | 30374.5793.tif | 5c92bc08c393f1827411d774f2ef928a |
+| 30373.5795.tif | 30374.5795.tif | 6148fb6146c8c6c164b0fc3aad0e7e49 |
+| ZJ72012.TIF    | ZJ73012.TIF    | 73135647606f52fc33cd2153474df787 |
+| 30373.5803.tif | 30374.5803.tif | 862c5ff6757a0f9002f1ed469d8e4689 |
+| 30373.5794.tif | 30374.5794.tif | 864b2c4a9624bd3373041c94d5b04bd4 |
+| ZP15311.TIF    | ZP15315.TIF    | 8ec3d1da501e90ffefd61495db5d3d20 |
+| ZJ27512.TIF    | ZJ27513.TIF    | a6c6ff7d64346c20dd13f24278a278ab |
+| ZJ34541.TIF    | ZJ35541.TIF    | c7a384309cbaaeb385835d7cab5fece9 |
+| 31265.4349.tif | 31265.7349.tif | c7d037872b3b43e860a764ef925b077b |
+| 30373.5787.tif | 30374.5787.tif | d16729614b206ee5acb48ed98e899c78 |
+| ZJ38945.TIF    | ZJ39121.TIF    | d76199926664d8dc6b071386f71db60a |
+| 30373.5796.tif | 30374.5796.tif | d97e9e2887967295ebf166dda81e1f89 |
+| 30373.5784.tif | 30374.5784.tif | e3a6d06d15d2ffbeb2af0bb38fcf679d |
+| 30373.5802.tif | 30374.5802.tif | f136fbe40c4b4ad3f652f2a5ad8a097c |
+| 30373.5797.tif | 30374.5797.tif | f1dfc3f5d45a31ca313a6d0c57a86316 |
+| ZJ34073.TIF    | ZJ35533.TIF    | f53ba9f6fa19c31299cb3613a1d51142 |
+| 30373.5786.tif | 30374.5786.tif | fca16ecba617b50319ef4e6f4b565ace |
+| LB13804.TIF    | LB13805.TIF    | fcda8d574f82c4ceb1592274fbcf8c94 |
++----------------+----------------+----------------------------------+
+27 rows in set (4.22 sec)
+

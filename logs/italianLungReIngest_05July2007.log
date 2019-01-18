@@ -1,0 +1,2790 @@
+=== CEB Log File ===
+Log started: 2007.07.03 at 16:17:07.496 EDT
+
+0 INFO [main] gov.nih.nlm.iru.IruController - Starting up IRU
+24 INFO [main] gov.nih.nlm.ceb.data.JNDIUnitTestHelper - Binding jndiName: jdbc/iru_whistler_iru
+24 DEBUG [main] gov.nih.nlm.iru.IruTaskList - In perform method
+78 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 inDir = /nci/iru/italianLung/histology/
+	 outDir = 
+	 urlPrefix = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/
+	 datasetName = italianLung
+	 subdirFlag = false
+	 inputFilter = svs
+	 imageType = histology
+	 compressType = JPG Tiled TIFF
+	 compressRatio = 
+	 roiFlag = false
+	 comment = 
+
+	 copyMode = NONE
+	 dbMode = WRITE_NEW
+101 DEBUG [main] gov.nih.nlm.iru.IruIOFileFilter - inputMode_ = EXT
+11272 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01080_201-1.svs
+	 len = 377656247
+	 md5 = c09074bc0ebb1720c1f1a96f99c9a887
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01080_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01080_201-1.svs
+11315 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - datasource.resource =jdbc/iru_whistler_iru
+11316 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Looking up simple (sans prepend) within environment: jdbc/iru_whistler_iru
+11316 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Created DBDataSource using properties datasource.properties
+11316 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - DBDataSource ds = Reference Class Name: gov.nih.nlm.ceb.data.SimpleDataSource
+
+11316 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+11513 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+11556 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01080_201-1.svs' to DB; dbMode = WRITE_NEW
+24580 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01008_205-1.svs
+	 len = 453327787
+	 md5 = 31b252de924d196c26ad693b9f7ee40a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01008_205-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01008_205-1.svs
+24580 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+24600 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+24620 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01008_205-1.svs' to DB; dbMode = WRITE_NEW
+29108 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01012_202-1.svs
+	 len = 153165855
+	 md5 = c965d99e7a57ce5faf5d39a319173828
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01012_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01012_202-1.svs
+29109 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+29120 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+29132 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01012_202-1.svs' to DB; dbMode = WRITE_NEW
+44682 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01026_201-1.svs
+	 len = 528368179
+	 md5 = c556e5f76bbccd6989648fb628b7a704
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01026_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01026_201-1.svs
+44682 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+44694 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+44707 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01026_201-1.svs' to DB; dbMode = WRITE_NEW
+51974 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01028_202-1.svs
+	 len = 250301039
+	 md5 = 5d7debc668960608044a488f1b87cf8b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01028_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01028_202-1.svs
+51974 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+51984 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+51993 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01028_202-1.svs' to DB; dbMode = WRITE_NEW
+58531 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01036_204-1.svs
+	 len = 217983317
+	 md5 = 4d940813bfe1756fecb19f0478f2c9a3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01036_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01036_204-1.svs
+58531 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+58540 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+58550 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01036_204-1.svs' to DB; dbMode = WRITE_NEW
+68812 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01041_201-1.svs
+	 len = 363121081
+	 md5 = 51aec130c64101ea6d0cae701618f11d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01041_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01041_201-1.svs
+68812 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+68820 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+68829 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01041_201-1.svs' to DB; dbMode = WRITE_NEW
+91326 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01042_201-1.svs
+	 len = 744593261
+	 md5 = e6811479fbb540312cf9ae32fb96f99b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01042_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01042_201-1.svs
+91326 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+91336 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+91350 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01042_201-1.svs' to DB; dbMode = WRITE_NEW
+98397 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01048_203-1.svs
+	 len = 236432881
+	 md5 = 9ba63bc12dc7c075e185f72862edc589
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01048_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01048_203-1.svs
+98397 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+98406 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+98415 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01048_203-1.svs' to DB; dbMode = WRITE_NEW
+113124 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01051_203-1.svs
+	 len = 531939307
+	 md5 = e789a185dfd2e0134435f284683f0b34
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01051_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01051_203-1.svs
+113124 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+113133 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+113142 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01051_203-1.svs' to DB; dbMode = WRITE_NEW
+128703 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01060_202-1.svs
+	 len = 500433743
+	 md5 = 5f8611f4c20bd09c9e7c59ec5bf12c8b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01060_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01060_202-1.svs
+128703 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+128713 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+128721 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01060_202-1.svs' to DB; dbMode = WRITE_NEW
+134031 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01108_203-1.svs
+	 len = 180761713
+	 md5 = cf2b45db4c53572595d31eadec6fd0dd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01108_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01108_203-1.svs
+134031 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+134040 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+134050 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01108_203-1.svs' to DB; dbMode = WRITE_NEW
+146766 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01114_202-1.svs
+	 len = 398471463
+	 md5 = cc0a7203d8ea9ec6b7e96fd6d94692f4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01114_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01114_202-1.svs
+146766 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+146775 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+146783 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01114_202-1.svs' to DB; dbMode = WRITE_NEW
+151836 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01131_202-1.svs
+	 len = 163680807
+	 md5 = eba8f12eccb177fa4372e9d5ce864443
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01131_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01131_202-1.svs
+151836 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+151844 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+151854 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01131_202-1.svs' to DB; dbMode = WRITE_NEW
+155246 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01132_202-1.svs
+	 len = 127887651
+	 md5 = db61aee193459be3d1a04748d83b90ef
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01132_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01132_202-1.svs
+155246 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+155254 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+155262 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01132_202-1.svs' to DB; dbMode = WRITE_NEW
+170617 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01133_202-1.svs
+	 len = 508841215
+	 md5 = 173e474b5de6c928b1fcc3852a3b31fa
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01133_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01133_202-1.svs
+170617 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+170627 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+170636 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01133_202-1.svs' to DB; dbMode = WRITE_NEW
+184545 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01192_226-1.svs
+	 len = 458160375
+	 md5 = 24f6681f50e440ada1a3385254f764c2
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01192_226-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01192_226-1.svs
+184545 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+184556 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+184566 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01192_226-1.svs' to DB; dbMode = WRITE_NEW
+190599 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01265_202-1.svs
+	 len = 194520193
+	 md5 = 5df2986d72afae2ae598ebb428b243cc
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01265_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01265_202-1.svs
+190599 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+190608 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+190616 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01265_202-1.svs' to DB; dbMode = WRITE_NEW
+200117 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01294_201-1.svs
+	 len = 318783781
+	 md5 = 4810e944712264c3e8a5236804256fc4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01294_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01294_201-1.svs
+200120 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+200129 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+200137 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01294_201-1.svs' to DB; dbMode = WRITE_NEW
+201870 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01302_203-1.svs
+	 len = 42657877
+	 md5 = 40dd6ab283b30aee940fe429bd5f3596
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01302_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01302_203-1.svs
+201870 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+201880 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+201888 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01302_203-1.svs' to DB; dbMode = WRITE_NEW
+204777 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01312_203-1.svs
+	 len = 97968057
+	 md5 = a3e67d26b4304f9e35164310f737b111
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01312_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01312_203-1.svs
+204777 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+204786 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+204794 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01312_203-1.svs' to DB; dbMode = WRITE_NEW
+214817 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01347_202-1.svs
+	 len = 332962889
+	 md5 = 8a61c18428024b21791745b7a8268790
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01347_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01347_202-1.svs
+214817 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+214827 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+214836 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01347_202-1.svs' to DB; dbMode = WRITE_NEW
+225474 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01358_226-1.svs
+	 len = 358140773
+	 md5 = e41ada44722e4e9405fe0be41e55061c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01358_226-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01358_226-1.svs
+225475 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+225484 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+225491 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01358_226-1.svs' to DB; dbMode = WRITE_NEW
+231892 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01468_203-1.svs
+	 len = 213756369
+	 md5 = 9eec65081c5a2a0cba74faca3a917503
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01468_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01468_203-1.svs
+231892 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+231902 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+231910 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01468_203-1.svs' to DB; dbMode = WRITE_NEW
+237277 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01471_203-1.svs
+	 len = 180284259
+	 md5 = 24e48c4f397e691122bda3c5930d3382
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01471_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01471_203-1.svs
+237277 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+237288 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+237295 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01471_203-1.svs' to DB; dbMode = WRITE_NEW
+250707 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01506_202-1.svs
+	 len = 459820611
+	 md5 = 392a99da80e87ca5530c085532f67c5f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01506_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01506_202-1.svs
+250707 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+250716 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+250723 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01506_202-1.svs' to DB; dbMode = WRITE_NEW
+261066 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01519_201-1.svs
+	 len = 361524999
+	 md5 = b797309683e7f3ba1cae729f3b9cfb0d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01519_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01519_201-1.svs
+261066 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+261076 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+261084 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01519_201-1.svs' to DB; dbMode = WRITE_NEW
+279038 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01562_202-1.svs
+	 len = 637527479
+	 md5 = f2ae19df83cd4db6cb2b2324afdeb052
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01562_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01562_202-1.svs
+279038 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+279048 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+279056 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01562_202-1.svs' to DB; dbMode = WRITE_NEW
+285750 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01568_202-1.svs
+	 len = 235558889
+	 md5 = 93ed3142c42c60e759bfec431626920f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01568_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01568_202-1.svs
+285751 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+285761 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+285768 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01568_202-1.svs' to DB; dbMode = WRITE_NEW
+299642 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01604_202-1.svs
+	 len = 521912757
+	 md5 = b288467f1fd069fea4aebedc3a1cf130
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01604_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01604_202-1.svs
+299642 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+299650 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+299657 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01604_202-1.svs' to DB; dbMode = WRITE_NEW
+311622 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01634_203-1.svs
+	 len = 446056733
+	 md5 = 47170276c0165b6b42f3e04c239e8851
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01634_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01634_203-1.svs
+311622 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+311633 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+311641 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01634_203-1.svs' to DB; dbMode = WRITE_NEW
+313681 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01658_202-1.svs
+	 len = 73128375
+	 md5 = 6756d0fa0bb026e0cb48d8c64ad4ca5a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01658_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01658_202-1.svs
+313682 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+313689 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+313697 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01658_202-1.svs' to DB; dbMode = WRITE_NEW
+318769 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01659_202-1.svs
+	 len = 186027055
+	 md5 = 96c7648330ad99601b9f0dbfe16c1b25
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01659_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01659_202-1.svs
+318770 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+318780 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+318792 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01659_202-1.svs' to DB; dbMode = WRITE_NEW
+325741 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01660_202-1.svs
+	 len = 230061591
+	 md5 = 52debac0f3b0d0a243b4e0fe10ea577b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01660_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01660_202-1.svs
+325741 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+325749 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+325757 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01660_202-1.svs' to DB; dbMode = WRITE_NEW
+330148 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01667_202-1.svs
+	 len = 146080973
+	 md5 = 7555d8fdea5de5047ddc759e04c4fa89
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01667_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01667_202-1.svs
+330148 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+330157 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+330166 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01667_202-1.svs' to DB; dbMode = WRITE_NEW
+339967 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01668_202-1.svs
+	 len = 332116171
+	 md5 = f8c7d0b2e31ee291b8f40b6239908c91
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01668_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01668_202-1.svs
+339967 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+339976 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+339984 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01668_202-1.svs' to DB; dbMode = WRITE_NEW
+349795 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01669_202-1.svs
+	 len = 337688149
+	 md5 = 87f2e57073a2ba0f4fd15972d5c6e848
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01669_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01669_202-1.svs
+349795 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+349805 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+349814 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01669_202-1.svs' to DB; dbMode = WRITE_NEW
+359281 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01683_203-1.svs
+	 len = 330018337
+	 md5 = 407325013be73b27d79fa0f70745e6be
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01683_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01683_203-1.svs
+359281 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+359290 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+359297 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01683_203-1.svs' to DB; dbMode = WRITE_NEW
+382098 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01689_203-1.svs
+	 len = 749176251
+	 md5 = af66989042780deead59ec2be03b83fd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01689_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01689_203-1.svs
+382098 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+382108 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+382118 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01689_203-1.svs' to DB; dbMode = WRITE_NEW
+394600 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01690_202-1.svs
+	 len = 423630057
+	 md5 = 8bf6464ed5636f1718a2680c00dee7e9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01690_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01690_202-1.svs
+394600 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+394609 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+394617 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01690_202-1.svs' to DB; dbMode = WRITE_NEW
+408932 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01693_202-1.svs
+	 len = 477889733
+	 md5 = 2a9118a3f09b7de7ac4bec5b1c5caf03
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01693_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01693_202-1.svs
+408932 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+408941 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+408951 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01693_202-1.svs' to DB; dbMode = WRITE_NEW
+419030 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01703_201-1.svs
+	 len = 337430509
+	 md5 = 10fd50915b44ac2fa1bcae6b7128d51c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01703_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01703_201-1.svs
+419030 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+419039 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+419047 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01703_201-1.svs' to DB; dbMode = WRITE_NEW
+433533 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01733_202-1.svs
+	 len = 498878683
+	 md5 = f3e782619e78b31dae71709cd9041fa1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01733_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01733_202-1.svs
+433533 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+433542 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+433552 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01733_202-1.svs' to DB; dbMode = WRITE_NEW
+445311 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01735_202-1.svs
+	 len = 389277033
+	 md5 = c6aeec515cbe6821512f49f7704411e6
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01735_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01735_202-1.svs
+445311 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+445320 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+445327 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01735_202-1.svs' to DB; dbMode = WRITE_NEW
+452565 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01737_202-1.svs
+	 len = 257131591
+	 md5 = 6da7eef7b7e3383f3c5c60e78d01ab5d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01737_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01737_202-1.svs
+452565 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+452578 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+452587 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01737_202-1.svs' to DB; dbMode = WRITE_NEW
+459540 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01739_202-1.svs
+	 len = 227572081
+	 md5 = 025680880c4545809c556ba0ea2a60b9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01739_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01739_202-1.svs
+459540 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+459548 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+459555 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01739_202-1.svs' to DB; dbMode = WRITE_NEW
+471654 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01752_203-1.svs
+	 len = 427467771
+	 md5 = 530ff4541614777968b69e3964e731c8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01752_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01752_203-1.svs
+471654 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+471663 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+471670 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01752_203-1.svs' to DB; dbMode = WRITE_NEW
+477890 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01753_202-1.svs
+	 len = 227398843
+	 md5 = dbe0bbce0ea34dc0f6a93a37ed925ec0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01753_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01753_202-1.svs
+477890 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+477900 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+477908 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01753_202-1.svs' to DB; dbMode = WRITE_NEW
+499641 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01765_202-1.svs
+	 len = 709856143
+	 md5 = 9eea82f8c5627ebc1a0844bb1f6d0e07
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01765_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01765_202-1.svs
+499641 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+499654 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+499662 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01765_202-1.svs' to DB; dbMode = WRITE_NEW
+513531 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01773_202-1.svs
+	 len = 462876831
+	 md5 = 372a0f82ed34957a0e4bbbd9d8609800
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01773_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01773_202-1.svs
+513531 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+513541 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+513550 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01773_202-1.svs' to DB; dbMode = WRITE_NEW
+518845 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01812_201-1.svs
+	 len = 180070491
+	 md5 = 960e6042e4ac20346231f22544762215
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01812_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01812_201-1.svs
+518845 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+518854 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+518861 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01812_201-1.svs' to DB; dbMode = WRITE_NEW
+525670 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01813_202-1.svs
+	 len = 237726523
+	 md5 = a40906b1d7cab134e1c4350c8c206a5b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01813_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01813_202-1.svs
+525670 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+525680 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+525687 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01813_202-1.svs' to DB; dbMode = WRITE_NEW
+535275 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01814_201-1.svs
+	 len = 333523215
+	 md5 = 28cbdc6dc6c2fcd37b192d4bf1b5c966
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01814_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01814_201-1.svs
+535275 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+535285 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+535292 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01814_201-1.svs' to DB; dbMode = WRITE_NEW
+537417 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01826_202-1.svs
+	 len = 71562095
+	 md5 = d6b48c1f72cb3133e9cc6e18fcdcf9bb
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01826_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01826_202-1.svs
+537417 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+537506 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+537513 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01826_202-1.svs' to DB; dbMode = WRITE_NEW
+540404 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01827_202-1.svs
+	 len = 88220803
+	 md5 = 5ca99befa65072a9ffd7179c14860fc1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01827_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01827_202-1.svs
+540404 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+540412 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+540420 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01827_202-1.svs' to DB; dbMode = WRITE_NEW
+545756 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01828_203-1.svs
+	 len = 170327255
+	 md5 = 9930bf49b0bb170f970d4f6521b56b24
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01828_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01828_203-1.svs
+545757 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+545767 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+545774 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01828_203-1.svs' to DB; dbMode = WRITE_NEW
+555295 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01907_203-1.svs
+	 len = 306489127
+	 md5 = 87dff44f6e5db1e9222a8a17def254bb
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01907_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01907_203-1.svs
+555295 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+555303 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+555311 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01907_203-1.svs' to DB; dbMode = WRITE_NEW
+556836 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01097_601-1.svs
+	 len = 34305103
+	 md5 = f9fe0d6e80381cd9842a44fc6e2a4d58
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01097_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01097_601-1.svs
+556836 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+556845 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+556853 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01097_601-1.svs' to DB; dbMode = WRITE_NEW
+558722 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01173_401-1.svs
+	 len = 57448843
+	 md5 = 6026ee73609b9521ac2dba630c66dff8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01173_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01173_401-1.svs
+558722 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+558730 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+558738 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01173_401-1.svs' to DB; dbMode = WRITE_NEW
+563244 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01136_0401-1.svs
+	 len = 169092079
+	 md5 = e75407ae0e1c84ebf09c005061d5c519
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01136_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01136_0401-1.svs
+563244 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+563253 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+563263 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01136_0401-1.svs' to DB; dbMode = WRITE_NEW
+574423 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01223_0201-1.svs
+	 len = 397316321
+	 md5 = 8f5523642bfb4afe6d5fcf4eae031e70
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01223_0201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01223_0201-1.svs
+574423 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+574445 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+574453 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01223_0201-1.svs' to DB; dbMode = WRITE_NEW
+578157 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01159_0601-1.svs
+	 len = 125073079
+	 md5 = 89a7bface0f42febc24c082ddf93108a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01159_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01159_0601-1.svs
+578157 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+578164 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+578173 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01159_0601-1.svs' to DB; dbMode = WRITE_NEW
+579572 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01144_0401-1.svs
+	 len = 36814637
+	 md5 = 5a465f0227cfadc30380c1bc2a018c01
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01144_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01144_0401-1.svs
+579572 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+579580 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+579587 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01144_0401-1.svs' to DB; dbMode = WRITE_NEW
+591034 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01432_0219-1.svs
+	 len = 394124093
+	 md5 = 63ec0ce852e82cd4db211dd894806732
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01432_0219-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01432_0219-1.svs
+591034 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+591042 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+591051 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01432_0219-1.svs' to DB; dbMode = WRITE_NEW
+609243 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01451_0201-1.svs
+	 len = 601698947
+	 md5 = b0a86f9f671fc80ad0ff4b45bfe408f0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01451_0201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01451_0201-1.svs
+609243 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+609271 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+609278 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01451_0201-1.svs' to DB; dbMode = WRITE_NEW
+621666 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01161_0601-1.svs
+	 len = 426685895
+	 md5 = ec5e42ce2caa3e4592b595a5053109dc
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01161_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01161_0601-1.svs
+621667 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+621675 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+621686 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01161_0601-1.svs' to DB; dbMode = WRITE_NEW
+623957 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01161_0601-2.svs
+	 len = 51949607
+	 md5 = fd53c71cabec2edea274cef6c8abc3f9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01161_0601-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01161_0601-2.svs
+623957 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+623965 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+623972 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01161_0601-2.svs' to DB; dbMode = WRITE_NEW
+636741 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01460_0205-1.svs
+	 len = 442750737
+	 md5 = 7da93787ea7dd4b81efffcefb62b4580
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01460_0205-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01460_0205-1.svs
+636741 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+636750 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+636759 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01460_0205-1.svs' to DB; dbMode = WRITE_NEW
+641898 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01052_0601-1.svs
+	 len = 151323645
+	 md5 = 2040b6ecf7b2cfe4ce20e72c5d717d98
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01052_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01052_0601-1.svs
+641898 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+641908 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+641916 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01052_0601-1.svs' to DB; dbMode = WRITE_NEW
+646103 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01156_0602-1.svs
+	 len = 132900651
+	 md5 = 21e835bbdd52fd28bf081f8b4807ed57
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01156_0602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01156_0602-1.svs
+646103 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+646111 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+646119 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01156_0602-1.svs' to DB; dbMode = WRITE_NEW
+649191 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01053_0601-1.svs
+	 len = 106744991
+	 md5 = 6e50481cbfe7be38c1fc2e2f99e3b1f1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01053_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01053_0601-1.svs
+649191 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+649199 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+649206 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01053_0601-1.svs' to DB; dbMode = WRITE_NEW
+672353 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01268_0201-1.svs
+	 len = 745573217
+	 md5 = e51b6091b3d9a53654daca86f5d33617
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01268_0201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01268_0201-1.svs
+672353 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+672363 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+672372 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01268_0201-1.svs' to DB; dbMode = WRITE_NEW
+700206 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01498_203-1.svs
+	 len = 771963149
+	 md5 = 968642120e3f7af72d8280decc03fab7
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01498_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01498_203-1.svs
+700206 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+700215 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+700222 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01498_203-1.svs' to DB; dbMode = WRITE_NEW
+709411 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01272_0202-1.svs
+	 len = 294120299
+	 md5 = 597ae598f457ce902d29f5d3eae20218
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01272_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01272_0202-1.svs
+709411 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+709421 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+709429 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01272_0202-1.svs' to DB; dbMode = WRITE_NEW
+722981 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01270_0202-1.svs
+	 len = 452646399
+	 md5 = 9ad2f790cc53f6e0c2760948186b9715
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01270_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01270_0202-1.svs
+722981 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+722989 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+722997 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01270_0202-1.svs' to DB; dbMode = WRITE_NEW
+733918 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01485_202-1.svs
+	 len = 369686717
+	 md5 = ad9d9a796742043a313701d6ff85d022
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01485_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01485_202-1.svs
+733918 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+733926 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+733934 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01485_202-1.svs' to DB; dbMode = WRITE_NEW
+753532 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01766_203-1.svs
+	 len = 688531313
+	 md5 = 0ff68c3ab47a264722bdf0cc6ec96f78
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01766_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01766_203-1.svs
+753532 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+753544 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+753552 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01766_203-1.svs' to DB; dbMode = WRITE_NEW
+755526 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01063_0401-1.svs
+	 len = 48164641
+	 md5 = 6f904cbd6416e11ae14c5e0d690bff0f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01063_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01063_0401-1.svs
+755526 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+755534 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+755541 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01063_0401-1.svs' to DB; dbMode = WRITE_NEW
+757961 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01114_0402-1.svs
+	 len = 73609343
+	 md5 = 796bd8806c2be9f5af2d51a7ff307a03
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01114_0402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01114_0402-1.svs
+757961 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+757969 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+757976 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01114_0402-1.svs' to DB; dbMode = WRITE_NEW
+769231 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01073_0202-1.svs
+	 len = 382890573
+	 md5 = 69f7e017ba0b04c693b0dd93fd9213d8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01073_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01073_0202-1.svs
+769231 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+769239 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+769246 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01073_0202-1.svs' to DB; dbMode = WRITE_NEW
+788369 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01474_201-1.svs
+	 len = 649813041
+	 md5 = 93467b55536190c19c9520da204b4169
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01474_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01474_201-1.svs
+788370 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+788411 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+788419 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01474_201-1.svs' to DB; dbMode = WRITE_NEW
+798042 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01016_0214-1.svs
+	 len = 324665163
+	 md5 = c55436f6f6aa78ce37d7ce951d0e2a5f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01016_0214-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01016_0214-1.svs
+798042 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+798050 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+798057 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01016_0214-1.svs' to DB; dbMode = WRITE_NEW
+799692 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01039_0402-1.svs
+	 len = 54367939
+	 md5 = c3cc52f6345eefb13f61dcdfc3e4747c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01039_0402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01039_0402-1.svs
+799692 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+799701 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+799708 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01039_0402-1.svs' to DB; dbMode = WRITE_NEW
+810516 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01351_201-1.svs
+	 len = 386493735
+	 md5 = b4948b08958de0fabd30e8d3dc4e6167
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01351_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01351_201-1.svs
+810516 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+810524 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+810532 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01351_201-1.svs' to DB; dbMode = WRITE_NEW
+812139 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01634_401-1.svs
+	 len = 38956499
+	 md5 = 46fbc094fc80a9a6542ddfd30b5d26f9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01634_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01634_401-1.svs
+812139 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+812148 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+812155 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01634_401-1.svs' to DB; dbMode = WRITE_NEW
+812799 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01632_401-1.svs
+	 len = 13739419
+	 md5 = 772fa1a5d443279964f20ed0cf36bb21
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01632_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01632_401-1.svs
+812799 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+812807 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+812814 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01632_401-1.svs' to DB; dbMode = WRITE_NEW
+815334 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01682_405-1.svs
+	 len = 85476867
+	 md5 = 49da2679b4c44ef474bea2d147d241af
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01682_405-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01682_405-1.svs
+815334 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+815343 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+815350 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01682_405-1.svs' to DB; dbMode = WRITE_NEW
+823739 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01393_0202-1.svs
+	 len = 277189139
+	 md5 = a076aa314ce1f6df169f449875cf738d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01393_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01393_0202-1.svs
+823739 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+823748 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+823755 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01393_0202-1.svs' to DB; dbMode = WRITE_NEW
+834615 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01481_0208-1.svs
+	 len = 373778779
+	 md5 = 94f39dd37fda30d1959b624db60e8bbb
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01481_0208-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01481_0208-1.svs
+834615 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+834625 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+834633 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01481_0208-1.svs' to DB; dbMode = WRITE_NEW
+844004 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01154_602-1.svs
+	 len = 311277685
+	 md5 = 5dad704321d78d574834205ac0a8a2de
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01154_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01154_602-1.svs
+844004 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+844013 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+844020 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01154_602-1.svs' to DB; dbMode = WRITE_NEW
+854682 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01384_204-1.svs
+	 len = 383699097
+	 md5 = d68d23bf27b9e9fcb44b3f0bb85ac6f3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01384_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01384_204-1.svs
+854682 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+854692 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+854700 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01384_204-1.svs' to DB; dbMode = WRITE_NEW
+863985 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01196_202-1.svs
+	 len = 348915847
+	 md5 = dd2b598a534183adf997c6079374da03
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01196_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01196_202-1.svs
+863985 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+863993 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+864000 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01196_202-1.svs' to DB; dbMode = WRITE_NEW
+864706 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01250_602-1.svs
+	 len = 15521229
+	 md5 = aadde3b2c22ce77e5ff579719dfb4ad9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01250_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01250_602-1.svs
+864706 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+864714 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+864722 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01250_602-1.svs' to DB; dbMode = WRITE_NEW
+869118 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01251_602-1.svs
+	 len = 139019465
+	 md5 = 12b202c4c2bd045020ac6be2f65be8b5
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01251_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01251_602-1.svs
+869118 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+869127 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+869134 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01251_602-1.svs' to DB; dbMode = WRITE_NEW
+871131 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01248_602-1.svs
+	 len = 48316657
+	 md5 = fc78fd183bb367d3113912280a7ea0fa
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01248_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01248_602-1.svs
+871131 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+871140 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+871149 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01248_602-1.svs' to DB; dbMode = WRITE_NEW
+878380 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01023_0202-1.svs
+	 len = 232865987
+	 md5 = cf6a4cd56a96fa18887df8fa405c9467
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01023_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01023_0202-1.svs
+878380 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+878388 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+878395 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01023_0202-1.svs' to DB; dbMode = WRITE_NEW
+885945 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01724_204-1.svs
+	 len = 244989029
+	 md5 = 849e42b2e5f5119a7ce70862511a6164
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01724_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01724_204-1.svs
+885945 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+885954 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+885963 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01724_204-1.svs' to DB; dbMode = WRITE_NEW
+886912 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01162_402-1.svs
+	 len = 23853857
+	 md5 = 204a6ef86097549f9eb7b96bf2256220
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01162_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01162_402-1.svs
+886912 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+886919 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+886926 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01162_402-1.svs' to DB; dbMode = WRITE_NEW
+899980 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01580_202-1.svs
+	 len = 458216937
+	 md5 = e0bcb799dd098b11ee016d80702cf9a8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01580_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01580_202-1.svs
+899980 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+899991 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+900001 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01580_202-1.svs' to DB; dbMode = WRITE_NEW
+909214 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01740_202-1.svs
+	 len = 326939151
+	 md5 = 6d08c0f9bea11cd555a0c64d40e40c8a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01740_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01740_202-1.svs
+909214 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+909222 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+909229 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01740_202-1.svs' to DB; dbMode = WRITE_NEW
+916371 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01072_0202-1.svs
+	 len = 254842217
+	 md5 = 0e4c2325cc6d4dde69c96cd48e492f51
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01072_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01072_0202-1.svs
+916371 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+916383 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+916393 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01072_0202-1.svs' to DB; dbMode = WRITE_NEW
+920937 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01084_0601-1.svs
+	 len = 165735223
+	 md5 = 38fb4654b4d7c839942f1c7f6996be76
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01084_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01084_0601-1.svs
+920937 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+920945 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+920952 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01084_0601-1.svs' to DB; dbMode = WRITE_NEW
+925568 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01175_0602-1.svs
+	 len = 145760147
+	 md5 = 9d9faf805d8c4d78fbb232657706ceff
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01175_0602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01175_0602-1.svs
+925568 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+925575 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+925584 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01175_0602-1.svs' to DB; dbMode = WRITE_NEW
+936093 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01040_0225-1.svs
+	 len = 352145253
+	 md5 = 1324452461c7ef0cae0b8c17acdf327c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01040_0225-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01040_0225-1.svs
+936093 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+936102 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+936109 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01040_0225-1.svs' to DB; dbMode = WRITE_NEW
+948849 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01127_0202-1.svs
+	 len = 421529409
+	 md5 = 51e6f2e16e2a224cd91d476a68ecb6b0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01127_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01127_0202-1.svs
+948849 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+948859 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+948868 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01127_0202-1.svs' to DB; dbMode = WRITE_NEW
+951234 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01024_0601-1.svs
+	 len = 78885779
+	 md5 = ebc0527e6672e490e09e18e7ee5a70ad
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01024_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01024_0601-1.svs
+951234 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+951243 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+951251 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01024_0601-1.svs' to DB; dbMode = WRITE_NEW
+951741 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01024_0401-1.svs
+	 len = 9849459
+	 md5 = 83982ce8bbe789b35fdc77768ab515ce
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01024_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01024_0401-1.svs
+951741 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+951750 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+951758 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01024_0401-1.svs' to DB; dbMode = WRITE_NEW
+959118 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01339_601-1.svs
+	 len = 245001573
+	 md5 = 49b162a7f3563ef9f76b13b52541edf5
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01339_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01339_601-1.svs
+959118 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+959129 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+959136 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01339_601-1.svs' to DB; dbMode = WRITE_NEW
+966832 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01792_201-1.svs
+	 len = 253582555
+	 md5 = c9de9353edf5546ab547bb48cd5d5cb6
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01792_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01792_201-1.svs
+966832 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+966841 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+966848 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01792_201-1.svs' to DB; dbMode = WRITE_NEW
+972458 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01866_206-1.svs
+	 len = 183168883
+	 md5 = 3c05065f9dd4c6fcf4347a18a652da02
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01866_206-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01866_206-1.svs
+972458 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+972467 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+972474 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01866_206-1.svs' to DB; dbMode = WRITE_NEW
+977478 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01413_202-1.svs
+	 len = 162567591
+	 md5 = d8fce4ebb017401d15c3a0929b49fe26
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01413_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01413_202-1.svs
+977478 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+977486 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+977493 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01413_202-1.svs' to DB; dbMode = WRITE_NEW
+978762 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01184_401-1.svs
+	 len = 30183521
+	 md5 = 33b01e612c987face519fae098554ee9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01184_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01184_401-1.svs
+978763 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+978771 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+978778 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01184_401-1.svs' to DB; dbMode = WRITE_NEW
+979271 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01168_401-1.svs
+	 len = 11890701
+	 md5 = 8a983f4c7616e7c4e852e48cfeb173a0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01168_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01168_401-1.svs
+979271 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+979280 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+979286 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01168_401-1.svs' to DB; dbMode = WRITE_NEW
+993024 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01986_202-1.svs
+	 len = 467192343
+	 md5 = ec4907b3a2115a50a864e78b27fec281
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01986_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01986_202-1.svs
+993024 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+993034 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+993042 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01986_202-1.svs' to DB; dbMode = WRITE_NEW
+994623 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01379_401-1.svs
+	 len = 35465721
+	 md5 = 800628c48d8af79dcc4bab5eecef8e48
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01379_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01379_401-1.svs
+994623 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+994632 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+994639 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01379_401-1.svs' to DB; dbMode = WRITE_NEW
+995402 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01658_401-1.svs
+	 len = 17249903
+	 md5 = bbc00c53141cdcb4966562d90b9e5151
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01658_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01658_401-1.svs
+995402 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+995411 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+995419 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01658_401-1.svs' to DB; dbMode = WRITE_NEW
+995695 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01106_402-1.svs
+	 len = 5080767
+	 md5 = c296646be29d1a366390165c865211da
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01106_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01106_402-1.svs
+995695 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+995703 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+995710 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01106_402-1.svs' to DB; dbMode = WRITE_NEW
+996918 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01041_402-1.svs
+	 len = 25361543
+	 md5 = 17deb5568d4eb27795f194b4363b4998
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01041_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01041_402-1.svs
+996918 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+996960 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+996967 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01041_402-1.svs' to DB; dbMode = WRITE_NEW
+997724 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01026_401-1.svs
+	 len = 18537167
+	 md5 = ed4ee30e76999ebaa4be81c2b63cae66
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01026_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01026_401-1.svs
+997724 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+997732 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+997739 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01026_401-1.svs' to DB; dbMode = WRITE_NEW
+999513 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01908_201-1.svs
+	 len = 52996869
+	 md5 = 57dbb60857caa2c09c818006f08b24cd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01908_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01908_201-1.svs
+999513 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+999522 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+999529 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01908_201-1.svs' to DB; dbMode = WRITE_NEW
+999943 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01387_406-1.svs
+	 len = 8591209
+	 md5 = 91d97d393d2702ce4040884d3b1c6a07
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01387_406-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01387_406-1.svs
+999943 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+999951 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+999957 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01387_406-1.svs' to DB; dbMode = WRITE_NEW
+1000437 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01387_406-2.svs
+	 len = 8620161
+	 md5 = 674803ecc994ca8d865b7ccbcaa6f37b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01387_406-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01387_406-2.svs
+1000437 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1000444 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1000452 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01387_406-2.svs' to DB; dbMode = WRITE_NEW
+1001218 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01245_401-1.svs
+	 len = 14842157
+	 md5 = 9d4fe28c68701552dfa0613a4c929784
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01245_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01245_401-1.svs
+1001218 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1001225 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1001233 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01245_401-1.svs' to DB; dbMode = WRITE_NEW
+1002359 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01399_405-1.svs
+	 len = 22975411
+	 md5 = 6c7cec1fc6ea82ea62e24ca894ddb2db
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01399_405-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01399_405-1.svs
+1002359 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1002367 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1002377 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01399_405-1.svs' to DB; dbMode = WRITE_NEW
+1004139 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01297_601-1.svs
+	 len = 56194095
+	 md5 = a4af220b0dafc2325a6475e93d7a2c1a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01297_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01297_601-1.svs
+1004139 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1004147 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1004155 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01297_601-1.svs' to DB; dbMode = WRITE_NEW
+1005118 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01376_401-1.svs
+	 len = 18209647
+	 md5 = 573662ba749e56b4151ed106c348c425
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01376_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01376_401-1.svs
+1005118 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1005126 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1005134 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01376_401-1.svs' to DB; dbMode = WRITE_NEW
+1012385 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01346_601-1.svs
+	 len = 250280855
+	 md5 = d04b10a2c97e07ee4343fd2a56184d90
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01346_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01346_601-1.svs
+1012385 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1012419 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1012426 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01346_601-1.svs' to DB; dbMode = WRITE_NEW
+1013410 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01588_402-1.svs
+	 len = 30842773
+	 md5 = 3c5b8e65032f18c3ece7110c93e5cbc4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01588_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01588_402-1.svs
+1013410 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1013418 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1013426 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01588_402-1.svs' to DB; dbMode = WRITE_NEW
+1022840 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01263_602-1.svs
+	 len = 334723771
+	 md5 = 13e3d1d88e8c77239a99fd4bf918a376
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01263_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01263_602-1.svs
+1022840 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1022848 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1022857 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01263_602-1.svs' to DB; dbMode = WRITE_NEW
+1024290 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01679_406-1.svs
+	 len = 40020975
+	 md5 = e83b7ae7be120788981117bacb5225e7
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01679_406-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01679_406-1.svs
+1024291 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1024298 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1024307 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01679_406-1.svs' to DB; dbMode = WRITE_NEW
+1030619 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01602_202-1.svs
+	 len = 230924957
+	 md5 = fdf631453b62a0673a7e259cf4848888
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01602_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01602_202-1.svs
+1030619 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1030627 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1030634 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01602_202-1.svs' to DB; dbMode = WRITE_NEW
+1036416 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01601_202-1.svs
+	 len = 213822723
+	 md5 = e052d80a40fb1bca8313d7fd23e9f2f6
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01601_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01601_202-1.svs
+1036416 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1036424 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1036433 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01601_202-1.svs' to DB; dbMode = WRITE_NEW
+1040156 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01371_401-1.svs
+	 len = 122987981
+	 md5 = 3f0e1ea110720942489c92112bef823d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01371_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01371_401-1.svs
+1040156 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1040165 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1040172 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01371_401-1.svs' to DB; dbMode = WRITE_NEW
+1051451 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01714_203-1.svs
+	 len = 384590439
+	 md5 = d2dc1113e9b4e2cfb436971b80b24fc1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01714_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01714_203-1.svs
+1051451 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1051461 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1051469 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01714_203-1.svs' to DB; dbMode = WRITE_NEW
+1052645 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01521_401-1.svs
+	 len = 23286663
+	 md5 = 1a7d635ee0330f1bc2db08c6ceb053ee
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01521_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01521_401-1.svs
+1052645 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1052653 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1052660 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01521_401-1.svs' to DB; dbMode = WRITE_NEW
+1063060 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01940_202-1.svs
+	 len = 364962489
+	 md5 = 89a0a5fc157c300d50b23e38ed8d5484
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01940_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01940_202-1.svs
+1063060 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1063068 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1063077 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01940_202-1.svs' to DB; dbMode = WRITE_NEW
+1069865 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01887_201-1.svs
+	 len = 228364031
+	 md5 = 5ae3ffaa5439933bfa6943511907cb58
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01887_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01887_201-1.svs
+1069865 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1069873 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1069880 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01887_201-1.svs' to DB; dbMode = WRITE_NEW
+1077887 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01783_202-1.svs
+	 len = 281747423
+	 md5 = 9aa2984110df68f5305c7c4e51238b9e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01783_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01783_202-1.svs
+1077887 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1077896 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1077903 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01783_202-1.svs' to DB; dbMode = WRITE_NEW
+1089502 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01864_202-1.svs
+	 len = 419822053
+	 md5 = b0906f849ccb0e5d07717bc0731fc6b8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01864_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01864_202-1.svs
+1089503 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1089514 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1089521 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01864_202-1.svs' to DB; dbMode = WRITE_NEW
+1091439 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01169_401-1.svs
+	 len = 47282063
+	 md5 = f672c346f138da418915f297a4a95416
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01169_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01169_401-1.svs
+1091439 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1091447 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1091454 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01169_401-1.svs' to DB; dbMode = WRITE_NEW
+1105412 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01800_201-1.svs
+	 len = 503617861
+	 md5 = 3c33515df403b818c8cfce9e10f5fd90
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01800_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01800_201-1.svs
+1105412 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1105421 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1105428 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01800_201-1.svs' to DB; dbMode = WRITE_NEW
+1106478 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01025_401-1.svs
+	 len = 22196637
+	 md5 = 2c261ddd17fae3f56eb128b472c190fa
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01025_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01025_401-1.svs
+1106478 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1106492 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1106500 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01025_401-1.svs' to DB; dbMode = WRITE_NEW
+1107384 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01417_401-1.svs
+	 len = 19599275
+	 md5 = 0140724ea8a23040c001d8a90902c553
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01417_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01417_401-1.svs
+1107384 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1107394 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1107401 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01417_401-1.svs' to DB; dbMode = WRITE_NEW
+1109422 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01419_401-1.svs
+	 len = 52422309
+	 md5 = d2c8dfb02ecef001b2e9835506479aa3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01419_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01419_401-1.svs
+1109422 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1109430 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1109437 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01419_401-1.svs' to DB; dbMode = WRITE_NEW
+1121879 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01977_202-1.svs
+	 len = 441374841
+	 md5 = a97175d215a48c97d39cdf50ef94e143
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01977_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01977_202-1.svs
+1121880 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1121891 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1121898 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01977_202-1.svs' to DB; dbMode = WRITE_NEW
+1135966 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01597_202-1.svs
+	 len = 487694643
+	 md5 = 33dcd18684fe1a5ee4ee9d77e8280a31
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01597_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01597_202-1.svs
+1135966 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1135974 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1135981 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01597_202-1.svs' to DB; dbMode = WRITE_NEW
+1138961 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01337_0202-1.svs
+	 len = 94950729
+	 md5 = 919d6994a25bf0e7624b5d432a831426
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01337_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01337_0202-1.svs
+1138961 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1138983 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1138991 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01337_0202-1.svs' to DB; dbMode = WRITE_NEW
+1147813 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01200_0215-1.svs
+	 len = 307668841
+	 md5 = 97a678b7a2e30df5f226f151e7556415
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01200_0215-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01200_0215-1.svs
+1147813 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1147821 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1147829 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01200_0215-1.svs' to DB; dbMode = WRITE_NEW
+1149123 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01395_602-1.svs
+	 len = 29365909
+	 md5 = f44eed3a91dc793fcc172a2f20f7060d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01395_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01395_602-1.svs
+1149123 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1149167 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1149175 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01395_602-1.svs' to DB; dbMode = WRITE_NEW
+1151617 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01075_0202-1.svs
+	 len = 94959707
+	 md5 = 63f9a374036cf0d887e2c19a5ca75e36
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01075_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01075_0202-1.svs
+1151617 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1151626 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1151633 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01075_0202-1.svs' to DB; dbMode = WRITE_NEW
+1163148 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01465_203-1.svs
+	 len = 390921003
+	 md5 = 5f3ff58a2e1e5a08f3a91d183f53c4dd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01465_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01465_203-1.svs
+1163148 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1163157 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1163185 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01465_203-1.svs' to DB; dbMode = WRITE_NEW
+1163342 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01223_402-1.svs
+	 len = 3464707
+	 md5 = 5832cc0b2da0013cc7f6491b3bb22fcf
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01223_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01223_402-1.svs
+1163342 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1163349 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1163363 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01223_402-1.svs' to DB; dbMode = WRITE_NEW
+1165319 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01067_0601-1.svs
+	 len = 47712739
+	 md5 = 1dc6fdb966ce04163857bf1c17388a1f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01067_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01067_0601-1.svs
+1165319 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1165327 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1165342 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01067_0601-1.svs' to DB; dbMode = WRITE_NEW
+1179261 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01258_0202-1.svs
+	 len = 477860251
+	 md5 = e7b57d1d7c5d3e855350034686aec28e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01258_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01258_0202-1.svs
+1179261 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1179270 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1179278 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01258_0202-1.svs' to DB; dbMode = WRITE_NEW
+1190322 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01190_0202-1.svs
+	 len = 363919463
+	 md5 = ef25228b61c70912948ea40dcf2db3ff
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01190_0202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01190_0202-1.svs
+1190322 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1190330 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1190347 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01190_0202-1.svs' to DB; dbMode = WRITE_NEW
+1203558 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01412_402-1.svs
+	 len = 392041245
+	 md5 = 67732faaec9641733fde7a733c349c74
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01412_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01412_402-1.svs
+1203558 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1203568 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1203575 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01412_402-1.svs' to DB; dbMode = WRITE_NEW
+1207402 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01153_0402-1.svs
+	 len = 132159055
+	 md5 = 734ec7d90129278039eaa10e4bb7df1f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01153_0402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01153_0402-1.svs
+1207402 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1207410 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1207419 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01153_0402-1.svs' to DB; dbMode = WRITE_NEW
+1208303 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01075_0401-1.svs
+	 len = 17196167
+	 md5 = f7a10854bd2c77c44e0f1c3ea444d326
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01075_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01075_0401-1.svs
+1208303 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1208311 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1208318 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01075_0401-1.svs' to DB; dbMode = WRITE_NEW
+1209943 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01199_602-1.svs
+	 len = 35787051
+	 md5 = 1d72c9cbc91db6a61c8b7566ac325a9d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01199_602-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01199_602-1.svs
+1209943 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1209952 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1209965 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01199_602-1.svs' to DB; dbMode = WRITE_NEW
+1210854 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01040_0402-1.svs
+	 len = 19513795
+	 md5 = 687fb44565ffbe04843c6f5eeb59734b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01040_0402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01040_0402-1.svs
+1210854 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1210862 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1210873 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01040_0402-1.svs' to DB; dbMode = WRITE_NEW
+1213546 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01310_601-1.svs
+	 len = 74290977
+	 md5 = 4428ae3e18aa9a35d00051c4c4d5cfbe
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01310_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01310_601-1.svs
+1213546 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1213554 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1213572 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01310_601-1.svs' to DB; dbMode = WRITE_NEW
+1214524 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01109_401-1.svs
+	 len = 19570223
+	 md5 = 554b5f71b3ca2eafcd92a88ce20de640
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01109_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01109_401-1.svs
+1214524 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1214531 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1214539 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01109_401-1.svs' to DB; dbMode = WRITE_NEW
+1215419 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01007_0403-1.svs
+	 len = 20812569
+	 md5 = a37190a79ccc431b61b67820771f11fe
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01007_0403-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01007_0403-1.svs
+1215419 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1215426 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1215434 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01007_0403-1.svs' to DB; dbMode = WRITE_NEW
+1217666 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01214_0401-1.svs
+	 len = 48223921
+	 md5 = f25d6b03b5e9727e24110dbf24763306
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01214_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01214_0401-1.svs
+1217666 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1217675 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1217685 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01214_0401-1.svs' to DB; dbMode = WRITE_NEW
+1222032 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01082_0601-1.svs
+	 len = 135411255
+	 md5 = 10ab0162e455a2c9de5ab36bd3860930
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01082_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01082_0601-1.svs
+1222032 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1222041 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1222049 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01082_0601-1.svs' to DB; dbMode = WRITE_NEW
+1232896 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01164_0601-1.svs
+	 len = 383801751
+	 md5 = 1ad1eacb9897673f807a8a33554913b5
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01164_0601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01164_0601-1.svs
+1232896 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1232908 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1232932 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01164_0601-1.svs' to DB; dbMode = WRITE_NEW
+1240699 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01033_214-1.svs
+	 len = 255860653
+	 md5 = 41c985d7c41d3b886fb7224a3617bbec
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01033_214-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01033_214-1.svs
+1240699 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1240708 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1240722 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01033_214-1.svs' to DB; dbMode = WRITE_NEW
+1245379 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01185_202-1.svs
+	 len = 152035753
+	 md5 = 1aa159df7a372d1cb53026f53425873f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01185_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01185_202-1.svs
+1245379 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1245389 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1245396 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01185_202-1.svs' to DB; dbMode = WRITE_NEW
+1253571 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01033_202-1.svs
+	 len = 297351837
+	 md5 = 3003450f2254c7bb6de2993d9fba390a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01033_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01033_202-1.svs
+1253571 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1253579 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1253587 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01033_202-1.svs' to DB; dbMode = WRITE_NEW
+1267256 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01914_202-1.svs
+	 len = 456064721
+	 md5 = 0915bb3da01c47afca3984012099204f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01914_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01914_202-1.svs
+1267257 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1267265 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1267284 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01914_202-1.svs' to DB; dbMode = WRITE_NEW
+1277594 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01409_202-1.svs
+	 len = 339282123
+	 md5 = d7f00f4e0531859d458e7e9f1d83946e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01409_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01409_202-1.svs
+1277594 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1277620 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1277639 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01409_202-1.svs' to DB; dbMode = WRITE_NEW
+1288199 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01535_202-1.svs
+	 len = 331842877
+	 md5 = b788a4518191721f9a6db2ad0ab6c08a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01535_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01535_202-1.svs
+1288199 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1288215 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1288223 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01535_202-1.svs' to DB; dbMode = WRITE_NEW
+1299249 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01348_202-1.svs
+	 len = 366500075
+	 md5 = 2d425e14ef01293c302c57dae94ed58f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01348_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01348_202-1.svs
+1299249 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1299258 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1299266 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01348_202-1.svs' to DB; dbMode = WRITE_NEW
+1312334 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01600_201-1.svs
+	 len = 423731881
+	 md5 = c5334583f9fa4ddddee55a7ea3df08cb
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01600_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01600_201-1.svs
+1312335 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1312346 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1312353 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01600_201-1.svs' to DB; dbMode = WRITE_NEW
+1322448 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01751_202-1.svs
+	 len = 341243357
+	 md5 = 5d527c0e0e45cb1ff4480950b7cc78bf
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01751_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01751_202-1.svs
+1322448 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1322456 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1322463 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01751_202-1.svs' to DB; dbMode = WRITE_NEW
+1336799 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01781_202-1.svs
+	 len = 467555283
+	 md5 = 68852d760b59bb2201b611288bfba7bc
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01781_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01781_202-1.svs
+1336799 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1336809 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1336816 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01781_202-1.svs' to DB; dbMode = WRITE_NEW
+1354224 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01781_201-1.svs
+	 len = 590978761
+	 md5 = d93af244a627d75c8d5f0d0ad1894628
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01781_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01781_201-1.svs
+1354224 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1354266 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1354279 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01781_201-1.svs' to DB; dbMode = WRITE_NEW
+1373910 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01973_203-1.svs
+	 len = 675088405
+	 md5 = 34ef07eb6194e868ce898d33bf9fdb7c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01973_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01973_203-1.svs
+1373910 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1373920 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1373927 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01973_203-1.svs' to DB; dbMode = WRITE_NEW
+1379786 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01823_201-1.svs
+	 len = 190768515
+	 md5 = 5d925cab01669882b16f62dad9b762ea
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01823_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01823_201-1.svs
+1379786 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1379794 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1379801 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01823_201-1.svs' to DB; dbMode = WRITE_NEW
+1385805 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01409_203-1.svs
+	 len = 190608423
+	 md5 = 5de4b29f1ba6248c555b8aabd13c3681
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01409_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01409_203-1.svs
+1385805 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1385816 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1385823 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01409_203-1.svs' to DB; dbMode = WRITE_NEW
+1405353 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01562_203-1.svs
+	 len = 673981819
+	 md5 = ad6f9acbf42b206eab9572b3fdf33ed9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01562_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01562_203-1.svs
+1405353 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1405361 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1405389 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01562_203-1.svs' to DB; dbMode = WRITE_NEW
+1418594 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01734_202-1.svs
+	 len = 459686285
+	 md5 = 14346de91185b521fc63d50b56283cd0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01734_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01734_202-1.svs
+1418594 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1418603 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1418612 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01734_202-1.svs' to DB; dbMode = WRITE_NEW
+1435970 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01070_201-1.svs
+	 len = 578799181
+	 md5 = e4dcae65a6f79a66764b2b20a13ba371
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01070_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01070_201-1.svs
+1435970 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1435979 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1435986 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01070_201-1.svs' to DB; dbMode = WRITE_NEW
+1448792 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01633_203-1.svs
+	 len = 464072639
+	 md5 = 7ec1f977a3558e8b0c2e6b26d3fd2ced
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01633_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01633_203-1.svs
+1448792 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1448802 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1448821 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01633_203-1.svs' to DB; dbMode = WRITE_NEW
+1463441 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01869_201-1.svs
+	 len = 505956589
+	 md5 = 4ad57ca442b99d718a406b71f9ae4d90
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01869_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01869_201-1.svs
+1463441 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1463449 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1463456 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01869_201-1.svs' to DB; dbMode = WRITE_NEW
+1475370 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01070_202-1.svs
+	 len = 416711779
+	 md5 = 519d803729627fe2c5f69fb6c004a2b6
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01070_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01070_202-1.svs
+1475370 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1475378 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1475386 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01070_202-1.svs' to DB; dbMode = WRITE_NEW
+1486664 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01600_202-1.svs
+	 len = 395242105
+	 md5 = a65149ee8fca33774e97ceb9313ff7e3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01600_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01600_202-1.svs
+1486664 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1486686 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1486700 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01600_202-1.svs' to DB; dbMode = WRITE_NEW
+1499208 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01633_202-1.svs
+	 len = 439925261
+	 md5 = 6c788f309886352f1a65fd20442526ee
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01633_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01633_202-1.svs
+1499208 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1499216 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1499257 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01633_202-1.svs' to DB; dbMode = WRITE_NEW
+1523101 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01956_202-1.svs
+	 len = 880472001
+	 md5 = 286b9fe845acc4ec27bc127ef4945c9f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01956_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01956_202-1.svs
+1523101 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1523111 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1523125 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01956_202-1.svs' to DB; dbMode = WRITE_NEW
+1538700 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01691_201-1.svs
+	 len = 527129407
+	 md5 = 552e09f6f3874427fd4f20cb9dc040de
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01691_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01691_201-1.svs
+1538700 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1538709 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1538718 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01691_201-1.svs' to DB; dbMode = WRITE_NEW
+1553364 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01269_202-1.svs
+	 len = 590503089
+	 md5 = 360fb083d37ae575a9fde7a93cc95323
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01269_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01269_202-1.svs
+1553364 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1553374 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1553381 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01269_202-1.svs' to DB; dbMode = WRITE_NEW
+1562428 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01304_204-1.svs
+	 len = 336851597
+	 md5 = 597ac2fd22aa7cbceae814650ff6801f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01304_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01304_204-1.svs
+1562428 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1562436 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1562445 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01304_204-1.svs' to DB; dbMode = WRITE_NEW
+1565996 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01402_202-1.svs
+	 len = 180318149
+	 md5 = a8af257078b94511de2d6ba4138614be
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01402_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01402_202-1.svs
+1565996 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1566004 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1566012 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01402_202-1.svs' to DB; dbMode = WRITE_NEW
+1567737 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01679_201-1.svs
+	 len = 71667051
+	 md5 = b8466e291571e140a63df608b852cc71
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01679_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01679_201-1.svs
+1567737 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1567745 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1567753 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01679_201-1.svs' to DB; dbMode = WRITE_NEW
+1578244 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01269_201-1.svs
+	 len = 549420071
+	 md5 = 4e854fe35e66b8c10ffc7024b77517f2
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01269_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01269_201-1.svs
+1578244 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1578253 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1578268 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01269_201-1.svs' to DB; dbMode = WRITE_NEW
+1579387 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01395_601-1.svs
+	 len = 32473405
+	 md5 = d19ef38475dad825469c694ed2a48d62
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01395_601-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01395_601-1.svs
+1579387 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1579394 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1579402 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01395_601-1.svs' to DB; dbMode = WRITE_NEW
+1580534 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GC01395_601-2.svs
+	 len = 32787891
+	 md5 = cb895c952f35d3d987aeb8dd1697e0ef
+	 inputPath = /netapp/nci/iru/italianLung/histology/GC01395_601-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GC01395_601-2.svs
+1580534 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1580542 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1580549 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GC01395_601-2.svs' to DB; dbMode = WRITE_NEW
+1584974 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01489_201-1.svs
+	 len = 235483835
+	 md5 = d7627f95e1a52f2ccf164743fc64253e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01489_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01489_201-1.svs
+1584974 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1584997 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1585007 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01489_201-1.svs' to DB; dbMode = WRITE_NEW
+1589483 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01447_202-1.svs
+	 len = 216917797
+	 md5 = 454dc6df5791478388cbe9e0ad4c8a7e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01447_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01447_202-1.svs
+1589483 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1589492 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1589524 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01447_202-1.svs' to DB; dbMode = WRITE_NEW
+1596434 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01479_201-1.svs
+	 len = 437705903
+	 md5 = 13397befb82820abf2e0e0eaeeb339ff
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01479_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01479_201-1.svs
+1596434 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1596443 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1596450 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01479_201-1.svs' to DB; dbMode = WRITE_NEW
+1602126 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01589_203-1.svs
+	 len = 348790441
+	 md5 = 6a461479f987fe6e5f311fb50784dda7
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01589_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01589_203-1.svs
+1602126 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1602135 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1602142 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01589_203-1.svs' to DB; dbMode = WRITE_NEW
+1610203 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01288_201-1.svs
+	 len = 512978507
+	 md5 = 53fa8773abbeb68968adb98d5de0afc4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01288_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01288_201-1.svs
+1610204 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1610211 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1610219 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01288_201-1.svs' to DB; dbMode = WRITE_NEW
+1612175 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01068_225-1.svs
+	 len = 114304469
+	 md5 = 63f650693ebc2ddf72d2be59083d1861
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01068_225-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01068_225-1.svs
+1612175 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1612184 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1612191 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01068_225-1.svs' to DB; dbMode = WRITE_NEW
+1614231 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01068_225-2.svs
+	 len = 104501361
+	 md5 = 172ecd3bd974382d22ee07189442479e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01068_225-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01068_225-2.svs
+1614231 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1614239 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1614246 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01068_225-2.svs' to DB; dbMode = WRITE_NEW
+1618383 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01396_203-1.svs
+	 len = 261855473
+	 md5 = 450dcd41c6b80ae3ae63c4f1a25c87dc
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01396_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01396_203-1.svs
+1618383 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1618394 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1618402 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01396_203-1.svs' to DB; dbMode = WRITE_NEW
+1624345 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01589_202-1.svs
+	 len = 372699325
+	 md5 = 58cde438e2b48f1e78438d7126eb78b8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01589_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01589_202-1.svs
+1624346 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1624354 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1624360 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01589_202-1.svs' to DB; dbMode = WRITE_NEW
+1630937 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01678_201-1.svs
+	 len = 415492517
+	 md5 = de2d3c3c77154f917b36e17771b83da0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01678_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01678_201-1.svs
+1630937 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1630947 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1630954 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01678_201-1.svs' to DB; dbMode = WRITE_NEW
+1637835 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01068_224-1.svs
+	 len = 423324219
+	 md5 = 9ee2434395c6b98f1bb665d7e669b319
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01068_224-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01068_224-1.svs
+1637835 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1637844 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1637851 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01068_224-1.svs' to DB; dbMode = WRITE_NEW
+1641065 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01335_202-1.svs
+	 len = 181547827
+	 md5 = d06748c89f8e48005986fcec4862e88b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01335_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01335_202-1.svs
+1641065 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1641075 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1641082 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01335_202-1.svs' to DB; dbMode = WRITE_NEW
+1653161 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01604_203-1.svs
+	 len = 745921985
+	 md5 = 5dba3ecc56d9d131f226c5e89a19b31e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01604_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01604_203-1.svs
+1653161 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1653200 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1653208 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01604_203-1.svs' to DB; dbMode = WRITE_NEW
+1656057 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01441_202-1.svs
+	 len = 162648121
+	 md5 = c00fd92e104ceda4ef68b6a5ab458b0f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01441_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01441_202-1.svs
+1656057 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1656067 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1656088 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01441_202-1.svs' to DB; dbMode = WRITE_NEW
+1658804 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01402_204-1.svs
+	 len = 171954281
+	 md5 = fe36229433ce99a89904a660ac503b1e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01402_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01402_204-1.svs
+1658804 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1658812 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1658824 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01402_204-1.svs' to DB; dbMode = WRITE_NEW
+1666068 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01440_202-1.svs
+	 len = 422178927
+	 md5 = 755b2a49e3cd850f9bfae3c3e1cdff30
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01440_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01440_202-1.svs
+1666068 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1666075 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1666084 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01440_202-1.svs' to DB; dbMode = WRITE_NEW
+1671496 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01396_204-1.svs
+	 len = 345173797
+	 md5 = 22ef59d3568503548143c8ade78dba39
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01396_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01396_204-1.svs
+1671496 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1671504 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1671511 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01396_204-1.svs' to DB; dbMode = WRITE_NEW
+1677967 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01176_202-1.svs
+	 len = 410747847
+	 md5 = 405b099d2dd98b727a1c7b132eb7aada
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01176_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01176_202-1.svs
+1677967 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1677975 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1677983 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01176_202-1.svs' to DB; dbMode = WRITE_NEW
+1686748 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01690_203-1.svs
+	 len = 519968549
+	 md5 = 3e5c5a76908678151caf7a64353d3a75
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01690_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01690_203-1.svs
+1686748 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1686758 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1686774 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01690_203-1.svs' to DB; dbMode = WRITE_NEW
+1698872 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01973_202-1.svs
+	 len = 728629951
+	 md5 = 1e6a8471ea6602861c3d886c88d877c1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01973_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01973_202-1.svs
+1698872 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1698880 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1698888 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01973_202-1.svs' to DB; dbMode = WRITE_NEW
+1700100 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01631_402-1.svs
+	 len = 39392785
+	 md5 = 9ef19ca7d168317294bd1f5e2b977d8d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01631_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01631_402-1.svs
+1700100 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1700107 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1700114 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01631_402-1.svs' to DB; dbMode = WRITE_NEW
+1703759 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01139_202-1.svs
+	 len = 203646293
+	 md5 = ceeeacc91dae1959e78234ba36b716c1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01139_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01139_202-1.svs
+1703759 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1703767 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1703775 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01139_202-1.svs' to DB; dbMode = WRITE_NEW
+1706840 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01174_203-1.svs
+	 len = 154339203
+	 md5 = 8956790d37c18f39c8a93da7ace8621c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01174_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01174_203-1.svs
+1706840 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1706848 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1706855 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01174_203-1.svs' to DB; dbMode = WRITE_NEW
+1707887 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01363_406-1.svs
+	 len = 35069309
+	 md5 = e05246d680f7f266da14c5e15d3e4fdd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01363_406-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01363_406-1.svs
+1707887 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1707894 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1707935 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01363_406-1.svs' to DB; dbMode = WRITE_NEW
+1716048 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01124_205-1.svs
+	 len = 463461595
+	 md5 = ae6e97622b6c7d75677d399a31289163
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01124_205-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01124_205-1.svs
+1716048 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1716056 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1716064 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01124_205-1.svs' to DB; dbMode = WRITE_NEW
+1719496 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01174_202-1.svs
+	 len = 189198395
+	 md5 = 082a836be6f38af5792a5d0854ceb4ff
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01174_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01174_202-1.svs
+1719496 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1719505 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1719514 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01174_202-1.svs' to DB; dbMode = WRITE_NEW
+1727777 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01176_201-1.svs
+	 len = 485002049
+	 md5 = 0b6b93f7557fa2bb12d84646ae4271ae
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01176_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01176_201-1.svs
+1727777 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1727785 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1727800 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01176_201-1.svs' to DB; dbMode = WRITE_NEW
+1732182 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01629_204-1.svs
+	 len = 227228315
+	 md5 = 816e52a02ba0f76c1e24874faaa787f3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01629_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01629_204-1.svs
+1732182 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1732190 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1732205 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01629_204-1.svs' to DB; dbMode = WRITE_NEW
+1735862 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01629_203-1.svs
+	 len = 196039049
+	 md5 = 3e80f30adc6c31a0419ab5f6c0cfe6ed
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01629_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01629_203-1.svs
+1735862 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1735870 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1735877 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01629_203-1.svs' to DB; dbMode = WRITE_NEW
+1746318 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01124_204-1.svs
+	 len = 604961361
+	 md5 = 393374c3a3f7cb5eb2048be8dd8baf39
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01124_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01124_204-1.svs
+1746318 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1746326 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1746335 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01124_204-1.svs' to DB; dbMode = WRITE_NEW
+1747838 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01631_401-1.svs
+	 len = 44016419
+	 md5 = 05c7c40b2a3321945d4a7873c2c1cd4f
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01631_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01631_401-1.svs
+1747838 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1747846 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1747853 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01631_401-1.svs' to DB; dbMode = WRITE_NEW
+1752027 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01849_201-1.svs
+	 len = 242294437
+	 md5 = b84166603cde1c6c22a55f9a29ca27b5
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01849_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01849_201-1.svs
+1752027 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1752036 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1752043 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01849_201-1.svs' to DB; dbMode = WRITE_NEW
+1759123 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01030_202-1.svs
+	 len = 410270703
+	 md5 = c3270d23d8f5ed8cefef72928c25a55e
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01030_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01030_202-1.svs
+1759123 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1759132 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1759139 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01030_202-1.svs' to DB; dbMode = WRITE_NEW
+1766086 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01837_227-1.svs
+	 len = 447299193
+	 md5 = 2c4a276dd8904904ead1ceb999ef6b10
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01837_227-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01837_227-1.svs
+1766086 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1766094 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1766101 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01837_227-1.svs' to DB; dbMode = WRITE_NEW
+1775635 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01720_201-1.svs
+	 len = 592114741
+	 md5 = 43661014cbe535d8b1f5c184c55df299
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01720_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01720_201-1.svs
+1775635 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1775644 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1775651 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01720_201-1.svs' to DB; dbMode = WRITE_NEW
+1776674 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01217_401-1.svs
+	 len = 42640093
+	 md5 = 9bca6551b8a521fdf32ced9a9d8f9640
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01217_401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01217_401-1.svs
+1776674 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1776681 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1776688 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01217_401-1.svs' to DB; dbMode = WRITE_NEW
+1777293 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01632_402-1.svs
+	 len = 18930823
+	 md5 = 4791ca7adb424c178e89932a239bbed4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01632_402-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01632_402-1.svs
+1777293 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1777301 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1777308 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01632_402-1.svs' to DB; dbMode = WRITE_NEW
+1777877 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01632_402-2.svs
+	 len = 18441359
+	 md5 = c23525e39e3581f848035b8398b77ab8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01632_402-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01632_402-2.svs
+1777877 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1777884 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1777894 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01632_402-2.svs' to DB; dbMode = WRITE_NEW
+1783588 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01704_204-1.svs
+	 len = 349277303
+	 md5 = b0f024cecbe74f8374d2d66a298e5020
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01704_204-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01704_204-1.svs
+1783588 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1783616 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1783624 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01704_204-1.svs' to DB; dbMode = WRITE_NEW
+1788216 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01704_203-1.svs
+	 len = 272738403
+	 md5 = b047c184a33a37bd63832336673108fc
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01704_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01704_203-1.svs
+1788216 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1788224 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1788231 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01704_203-1.svs' to DB; dbMode = WRITE_NEW
+1792025 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01304_203-1.svs
+	 len = 241706815
+	 md5 = 75b88c224a61713eee4c3cc4c24fdb21
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01304_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01304_203-1.svs
+1792025 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1792034 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1792041 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01304_203-1.svs' to DB; dbMode = WRITE_NEW
+1801806 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01980_202-1.svs
+	 len = 638732331
+	 md5 = 502afc7a21e3aaf6123e24fbbdb139da
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01980_202-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01980_202-1.svs
+1801806 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1801813 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1801821 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01980_202-1.svs' to DB; dbMode = WRITE_NEW
+1811006 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01447_203-1.svs
+	 len = 568048395
+	 md5 = 5bc1bb70150b51d96ab1611e3cf91d56
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01447_203-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01447_203-1.svs
+1811006 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1811016 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1811023 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01447_203-1.svs' to DB; dbMode = WRITE_NEW
+1815343 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01447_203-2.svs
+	 len = 262844715
+	 md5 = 0825ef75ba078b5d74e45f6ad750b656
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01447_203-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01447_203-2.svs
+1815343 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1815391 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1815398 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01447_203-2.svs' to DB; dbMode = WRITE_NEW
+1816388 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01641_0401-1.svs
+	 len = 31871671
+	 md5 = 5051a208f9e7a5e3e3fd0506847ec6f5
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01641_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01641_0401-1.svs
+1816388 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1816396 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1816403 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01641_0401-1.svs' to DB; dbMode = WRITE_NEW
+1817630 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01641_0401-2.svs
+	 len = 37766621
+	 md5 = f49f8e8eaa2a695cec6a0a164bee9686
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01641_0401-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01641_0401-2.svs
+1817630 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1817638 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1817644 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01641_0401-2.svs' to DB; dbMode = WRITE_NEW
+1830161 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01565_201-1.svs
+	 len = 763929831
+	 md5 = aa201d50d720c956fb233b8df6cc1e0c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01565_201-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01565_201-1.svs
+1830161 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1830169 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1830178 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01565_201-1.svs' to DB; dbMode = WRITE_NEW
+1841871 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01565_201-2.svs
+	 len = 751045579
+	 md5 = bb359f1099038db2250767a899b7475a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01565_201-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01565_201-2.svs
+1841871 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1841880 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1841886 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01565_201-2.svs' to DB; dbMode = WRITE_NEW
+1843708 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01644_0401-1.svs
+	 len = 84669703
+	 md5 = a2033d6f6f4698f37cbb0b5eead816b0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01644_0401-1.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01644_0401-1.svs
+1843708 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1843715 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1843724 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01644_0401-1.svs' to DB; dbMode = WRITE_NEW
+1844418 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GI01644_0401-2.svs
+	 len = 21085417
+	 md5 = a2831427c435fba594d855824292f0c1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GI01644_0401-2.svs
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GI01644_0401-2.svs
+1844418 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1844425 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+1844432 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GI01644_0401-2.svs' to DB; dbMode = WRITE_NEW
+=== CEB Log File ===
+Log started: 2007.07.05 at 08:13:23.191 EDT
+
+0 INFO [main] gov.nih.nlm.iru.IruController - Starting up IRU
+53 INFO [main] gov.nih.nlm.ceb.data.JNDIUnitTestHelper - Binding jndiName: jdbc/iru_whistler_iru
+53 DEBUG [main] gov.nih.nlm.iru.IruTaskList - In perform method
+129 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 inDir = /nci/iru/italianLung/histology/
+	 outDir = 
+	 urlPrefix = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/
+	 datasetName = italianLung
+	 subdirFlag = false
+	 inputFilter = pff
+	 imageType = histology
+	 compressType = JPG Tiled TIFF
+	 compressRatio = 
+	 roiFlag = false
+	 comment = 
+
+	 copyMode = NONE
+	 dbMode = WRITE_NEW
+160 DEBUG [main] gov.nih.nlm.iru.IruIOFileFilter - inputMode_ = EXT
+15331 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01008_205-1.pff
+	 len = 429350548
+	 md5 = e0e71d7042f3929a7275f709c50c4383
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01008_205-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01008_205-1.pff
+15372 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - datasource.resource =jdbc/iru_whistler_iru
+15372 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Looking up simple (sans prepend) within environment: jdbc/iru_whistler_iru
+15373 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Created DBDataSource using properties datasource.properties
+15373 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - DBDataSource ds = Reference Class Name: gov.nih.nlm.ceb.data.SimpleDataSource
+
+15373 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+16014 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+16084 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01008_205-1.pff' to DB; dbMode = WRITE_NEW
+20204 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01012_202-1.pff
+	 len = 134710537
+	 md5 = 8e79e528768e9a73761ee2f0ecf09daa
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01012_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01012_202-1.pff
+20204 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+20224 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+20243 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01012_202-1.pff' to DB; dbMode = WRITE_NEW
+36168 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01026_201-1.pff
+	 len = 505049741
+	 md5 = 053552448aa6d9a9b9e6974d3398d576
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01026_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01026_201-1.pff
+36168 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+36203 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+36225 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01026_201-1.pff' to DB; dbMode = WRITE_NEW
+44024 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01028_202-1.pff
+	 len = 229559635
+	 md5 = ae06599a26a6fcbaf080a82c890f8305
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01028_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01028_202-1.pff
+44024 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+44034 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+44044 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01028_202-1.pff' to DB; dbMode = WRITE_NEW
+50116 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01036_204-1.pff
+	 len = 200163856
+	 md5 = 94e10b8f2d6f64f5e8d01434cc0f09c2
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01036_204-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01036_204-1.pff
+50116 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+50128 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+50137 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01036_204-1.pff' to DB; dbMode = WRITE_NEW
+60987 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01041_201-1.pff
+	 len = 341860543
+	 md5 = db8839155b24aa9a78ce8a47538df1ad
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01041_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01041_201-1.pff
+60987 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+60997 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+61018 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01041_201-1.pff' to DB; dbMode = WRITE_NEW
+82550 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01042_201-1.pff
+	 len = 684997206
+	 md5 = cd0ab193c174419fcacf56bae23deaca
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01042_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01042_201-1.pff
+82550 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+82564 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+82582 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01042_201-1.pff' to DB; dbMode = WRITE_NEW
+89531 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01048_203-1.pff
+	 len = 229676532
+	 md5 = 35d285474df5565d9616d2b11935a1ad
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01048_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01048_203-1.pff
+89531 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+89540 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+89556 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01048_203-1.pff' to DB; dbMode = WRITE_NEW
+104561 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01051_203-1.pff
+	 len = 502539318
+	 md5 = c50146945c35df3dee9773c9dd2ec7e4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01051_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01051_203-1.pff
+104562 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+104574 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+104590 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01051_203-1.pff' to DB; dbMode = WRITE_NEW
+118975 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01060_202-1.pff
+	 len = 460044839
+	 md5 = a1867f075b21c6b7fc88f514ba38332b
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01060_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01060_202-1.pff
+118975 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+118992 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+119007 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01060_202-1.pff' to DB; dbMode = WRITE_NEW
+128116 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01080_201-1.pff
+	 len = 342687410
+	 md5 = 210bbd259fc20dbb9ac5727d5be29555
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01080_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01080_201-1.pff
+128116 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+128127 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+128135 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01080_201-1.pff' to DB; dbMode = WRITE_NEW
+133257 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01108_203-1.pff
+	 len = 160830113
+	 md5 = 45dbcb3bc3278e16881598d320ebe5a1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01108_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01108_203-1.pff
+133257 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+133266 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+133280 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01108_203-1.pff' to DB; dbMode = WRITE_NEW
+144464 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01114_202-1.pff
+	 len = 368642381
+	 md5 = a09aa1cf29e2785c1594974cd9a66616
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01114_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01114_202-1.pff
+144464 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+144474 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+144487 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01114_202-1.pff' to DB; dbMode = WRITE_NEW
+149031 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01131_202-1.pff
+	 len = 151943374
+	 md5 = 4b984292a69b50e4586a31bd2d663334
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01131_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01131_202-1.pff
+149031 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+149042 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+149049 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01131_202-1.pff' to DB; dbMode = WRITE_NEW
+152177 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01132_202-1.pff
+	 len = 110117832
+	 md5 = 7243236d2fe935124034c80ee1f16a36
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01132_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01132_202-1.pff
+152177 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+152188 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+152206 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01132_202-1.pff' to DB; dbMode = WRITE_NEW
+165689 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01133_202-1.pff
+	 len = 460494417
+	 md5 = b76e2209d073c7fb1c4a29bffc8ecf78
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01133_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01133_202-1.pff
+165689 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+165698 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+165706 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01133_202-1.pff' to DB; dbMode = WRITE_NEW
+177508 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01192_226-1.pff
+	 len = 406243270
+	 md5 = 6be145c9b91344cc7336fdfba0d2b964
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01192_226-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01192_226-1.pff
+177508 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+177517 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+177536 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01192_226-1.pff' to DB; dbMode = WRITE_NEW
+183080 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01265_202-1.pff
+	 len = 176370745
+	 md5 = b79e1d78178f20bb4b9069d8292a6fc8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01265_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01265_202-1.pff
+183080 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+183092 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+183101 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01265_202-1.pff' to DB; dbMode = WRITE_NEW
+191713 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01294_201-1.pff
+	 len = 276833224
+	 md5 = 88b357891f35618c6cdee0c5b816eaad
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01294_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01294_201-1.pff
+191713 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+191722 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+191733 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01294_201-1.pff' to DB; dbMode = WRITE_NEW
+193559 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01302_203-1.pff
+	 len = 36375442
+	 md5 = 6a9c21441a48c5bd4fbc23d5162f3991
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01302_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01302_203-1.pff
+193559 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+193567 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+193591 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01302_203-1.pff' to DB; dbMode = WRITE_NEW
+196473 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01312_203-1.pff
+	 len = 83526840
+	 md5 = 58cbef78ecd3bf7d3a2479ea63ca79b4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01312_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01312_203-1.pff
+196473 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+196482 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+196497 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01312_203-1.pff' to DB; dbMode = WRITE_NEW
+205800 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01347_202-1.pff
+	 len = 297237922
+	 md5 = dcc9725f4cabb10bd9102a21d86ae977
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01347_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01347_202-1.pff
+205800 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+205809 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+205823 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01347_202-1.pff' to DB; dbMode = WRITE_NEW
+215697 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01358_226-1.pff
+	 len = 331943312
+	 md5 = c7d85b34cfb8a3bb1d07b2a2af6e3937
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01358_226-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01358_226-1.pff
+215698 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+215723 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+215733 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01358_226-1.pff' to DB; dbMode = WRITE_NEW
+221871 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01468_203-1.pff
+	 len = 197723060
+	 md5 = d12f25c9b54c0f8ec5ce2c02ee623bbf
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01468_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01468_203-1.pff
+221871 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+221880 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+221887 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01468_203-1.pff' to DB; dbMode = WRITE_NEW
+226833 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01471_203-1.pff
+	 len = 162873667
+	 md5 = 4f360f5193985e4fa7a83a6b50c28695
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01471_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01471_203-1.pff
+226833 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+226842 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+226859 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01471_203-1.pff' to DB; dbMode = WRITE_NEW
+239375 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01506_202-1.pff
+	 len = 406948909
+	 md5 = 5fa4a10944aa0595bd651822a9a1ee6c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01506_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01506_202-1.pff
+239375 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+239384 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+239397 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01506_202-1.pff' to DB; dbMode = WRITE_NEW
+248204 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01519_201-1.pff
+	 len = 313601442
+	 md5 = 4aa31e2709fc51b8aa7a2895f9b618ff
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01519_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01519_201-1.pff
+248204 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+248214 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+248233 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01519_201-1.pff' to DB; dbMode = WRITE_NEW
+264999 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01562_202-1.pff
+	 len = 589321852
+	 md5 = 88e60eee13a6ad8b4b2c358d872c75f1
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01562_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01562_202-1.pff
+264999 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+265008 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+265025 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01562_202-1.pff' to DB; dbMode = WRITE_NEW
+271191 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01568_202-1.pff
+	 len = 214381331
+	 md5 = 7338513c694c334a106e954c044dda32
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01568_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01568_202-1.pff
+271192 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+271200 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+271222 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01568_202-1.pff' to DB; dbMode = WRITE_NEW
+285467 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01604_202-1.pff
+	 len = 480740967
+	 md5 = 7f70d062eb3de625a6a01db3d3563e72
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01604_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01604_202-1.pff
+285467 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+285485 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+285493 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01604_202-1.pff' to DB; dbMode = WRITE_NEW
+296886 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01634_203-1.pff
+	 len = 403618793
+	 md5 = 7a3f8eb4089c7ef5363ba3f8940f917d
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01634_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01634_203-1.pff
+296886 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+296894 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+296902 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01634_203-1.pff' to DB; dbMode = WRITE_NEW
+298901 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01658_202-1.pff
+	 len = 63564818
+	 md5 = c688cd5def2c9d19f92b4a136b8f54f9
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01658_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01658_202-1.pff
+298902 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+298911 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+298923 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01658_202-1.pff' to DB; dbMode = WRITE_NEW
+303875 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01659_202-1.pff
+	 len = 170382951
+	 md5 = 2c6cf3ed181dd6f83648a5dd7aa4f292
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01659_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01659_202-1.pff
+303875 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+303883 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+303898 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01659_202-1.pff' to DB; dbMode = WRITE_NEW
+309804 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01660_202-1.pff
+	 len = 207530873
+	 md5 = be46ee566aea2d1f6dc7020a8131845a
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01660_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01660_202-1.pff
+309805 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+309813 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+309825 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01660_202-1.pff' to DB; dbMode = WRITE_NEW
+313609 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01667_202-1.pff
+	 len = 130935248
+	 md5 = 248103c758ce5d373bbb767bfe4c942c
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01667_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01667_202-1.pff
+313609 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+313622 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+313651 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01667_202-1.pff' to DB; dbMode = WRITE_NEW
+323503 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01668_202-1.pff
+	 len = 307869808
+	 md5 = 86bf9b3c8a069d641e947ab161eaa038
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01668_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01668_202-1.pff
+323503 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+323515 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+323522 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01668_202-1.pff' to DB; dbMode = WRITE_NEW
+332661 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01669_202-1.pff
+	 len = 302146767
+	 md5 = 51ebd0a4ede743c24a361ca6d74a5fb7
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01669_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01669_202-1.pff
+332661 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+332681 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+332699 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01669_202-1.pff' to DB; dbMode = WRITE_NEW
+341533 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01683_203-1.pff
+	 len = 298323683
+	 md5 = 4615ac830e2bff273dcdb6b2d3403e18
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01683_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01683_203-1.pff
+341534 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+341544 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+341552 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01683_203-1.pff' to DB; dbMode = WRITE_NEW
+361110 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01689_203-1.pff
+	 len = 697394327
+	 md5 = 346f451facdc29289ccf5b6d041308ee
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01689_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01689_203-1.pff
+361110 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+361121 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+361129 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01689_203-1.pff' to DB; dbMode = WRITE_NEW
+372948 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01690_202-1.pff
+	 len = 391833917
+	 md5 = e8a31ae99a080e7776cf2dce361f04e6
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01690_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01690_202-1.pff
+372948 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+372960 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+372979 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01690_202-1.pff' to DB; dbMode = WRITE_NEW
+385965 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01693_202-1.pff
+	 len = 449674685
+	 md5 = 081e5ae5c25f14502e467fbb974372bd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01693_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01693_202-1.pff
+385965 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+385974 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+385991 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01693_202-1.pff' to DB; dbMode = WRITE_NEW
+394063 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01703_201-1.pff
+	 len = 304312357
+	 md5 = 9013291df461f532d081dc82a46e3058
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01703_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01703_201-1.pff
+394063 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+394094 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+394105 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01703_201-1.pff' to DB; dbMode = WRITE_NEW
+407172 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01733_202-1.pff
+	 len = 470337045
+	 md5 = 55a65f949a983c6c6d07a5131b4cc079
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01733_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01733_202-1.pff
+407172 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+407182 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+407191 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01733_202-1.pff' to DB; dbMode = WRITE_NEW
+417011 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01735_202-1.pff
+	 len = 354052337
+	 md5 = f28f4e5c1251cb3f66b7b72ad80bf503
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01735_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01735_202-1.pff
+417011 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+417022 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+417029 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01735_202-1.pff' to DB; dbMode = WRITE_NEW
+423040 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01737_202-1.pff
+	 len = 223154376
+	 md5 = 620204d1dc3c549db8a0fb545227bfa7
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01737_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01737_202-1.pff
+423040 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+423049 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+423058 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01737_202-1.pff' to DB; dbMode = WRITE_NEW
+429008 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01739_202-1.pff
+	 len = 205539616
+	 md5 = 04965eb00480429cbb32cfbc6954b1d8
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01739_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01739_202-1.pff
+429008 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+429018 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+429031 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01739_202-1.pff' to DB; dbMode = WRITE_NEW
+440064 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01752_203-1.pff
+	 len = 384187224
+	 md5 = 6ddea82e5e91299d27afea7bfc7c7c49
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01752_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01752_203-1.pff
+440064 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+440073 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+440081 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01752_203-1.pff' to DB; dbMode = WRITE_NEW
+445590 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01753_202-1.pff
+	 len = 199777625
+	 md5 = 2e614ab5474effbb93ac5ac8d2fa46dd
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01753_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01753_202-1.pff
+445590 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+445599 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+445613 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01753_202-1.pff' to DB; dbMode = WRITE_NEW
+465644 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01765_202-1.pff
+	 len = 667633314
+	 md5 = 38b879dd9cd8b41dccd4cf07d6e201ad
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01765_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01765_202-1.pff
+465644 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+465654 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+465662 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01765_202-1.pff' to DB; dbMode = WRITE_NEW
+478080 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01773_202-1.pff
+	 len = 431024356
+	 md5 = 150078581c6a7127b773d107f3062671
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01773_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01773_202-1.pff
+478081 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+478089 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+478098 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01773_202-1.pff' to DB; dbMode = WRITE_NEW
+482047 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01812_201-1.pff
+	 len = 127609533
+	 md5 = 746a383f65fcd160debd33c7fd64be01
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01812_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01812_201-1.pff
+482047 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+482055 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+482062 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01812_201-1.pff' to DB; dbMode = WRITE_NEW
+488185 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01813_202-1.pff
+	 len = 220406386
+	 md5 = 964e77c8118715df1287b8a6d5de8ee3
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01813_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01813_202-1.pff
+488185 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+488193 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+488207 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01813_202-1.pff' to DB; dbMode = WRITE_NEW
+497493 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01814_201-1.pff
+	 len = 305256214
+	 md5 = a7c18270892ad568f138e890387e5ed4
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01814_201-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01814_201-1.pff
+497493 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+497502 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+497519 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01814_201-1.pff' to DB; dbMode = WRITE_NEW
+499364 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01826_202-1.pff
+	 len = 61224508
+	 md5 = a81c2a305daa1fc58dcc373e8c4f55b2
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01826_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01826_202-1.pff
+499364 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+499371 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+499540 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01826_202-1.pff' to DB; dbMode = WRITE_NEW
+501711 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01827_202-1.pff
+	 len = 76337075
+	 md5 = 96c5be242ef9e3f29b779c569bc293c2
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01827_202-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01827_202-1.pff
+501711 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+501720 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+501734 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01827_202-1.pff' to DB; dbMode = WRITE_NEW
+506286 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01828_203-1.pff
+	 len = 152627609
+	 md5 = 1f2e10690b12cab03bcb7a421d2b4ef0
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01828_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01828_203-1.pff
+506286 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+506294 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+506307 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01828_203-1.pff' to DB; dbMode = WRITE_NEW
+514617 DEBUG [main] gov.nih.nlm.iru.IruTaskList - 
+	 name = GS01907_203-1.pff
+	 len = 285904291
+	 md5 = 4571861b1cbe08a647ae743086c199af
+	 inputPath = /netapp/nci/iru/italianLung/histology/GS01907_203-1.pff
+	 url = http://archive.nlm.nih.gov/testRepos/iru/italianLung/histology/GS01907_203-1.pff
+514617 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+514626 DEBUG [main] gov.nih.nlm.ceb.data.DBDataSource - Getting connection.
+514633 INFO [main] gov.nih.nlm.iru.IruTaskList - Saved new origFilename = 'GS01907_203-1.pff' to DB; dbMode = WRITE_NEW

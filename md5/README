@@ -1,0 +1,3 @@
+The purpose of this directory (md5) is to store the original md5 values for 
+these files so we can compare them at a later date. This will help with the 
+testing of the "ingest" utility.

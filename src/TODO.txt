@@ -1,0 +1,28 @@
+
+
+IRU Issues:
+
+    -Many old images in the IRU still have "archive" in the URL field
+    -Almost all images are "http" instead of "https"
+    -Some images have ceb-stage-lx in the URL field
+    -We currently have /nci/iru on both ceb-stage-lx and ceb and they are not
+     in sync.
+    -/nci/iru/ibc2011 does not include the older ptif files in
+     /nci/test/ibc2011. Unclear whether they should exist in both places or one 
+     of them
+    -Most, if not all, of the above older ptif images are not in the IRU DB.
+
+
+TODO/Wishlist:
+
+    -Change all "archive" and ceb-stage-lx URLs to "ceb"
+    -Change http to https
+    -Consider running IRU on ceb instead of ceb-stage
+        Need to copy database
+        Copy code and verify that we can run (might be a pain)
+    -Verify that /nci/ on ceb and ceb-stage are in sync.
+        Possibly do an rsync or just manually verify somehow
+    -Consider running the IRU on the PTIF images that are only
+     in /nci/test/ibc2011. Need to first determine if we want/need to do this.
+
+

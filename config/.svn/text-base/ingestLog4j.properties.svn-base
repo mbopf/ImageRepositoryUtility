@@ -1,0 +1,28 @@
+####
+#  Properties file for log4J
+####
+log4j.rootLogger=INFO, R, errors
+
+log4j.logger.gov.nih.nlm.iru.data = INFO
+
+log4j.appender.R= org.apache.log4j.RollingFileAppender
+log4j.appender.R.File=${user.home}${file.separator}iruIngest.log
+log4j.appender.R.Threshold=INFO
+
+log4j.appender.R.MaxFileSize=200MB
+# keep one backup file 
+log4j.appender.R.MaxBackupIndex=2
+
+# CPatternLayout sets a header at beginning of each run of log.
+log4j.appender.R.layout=gov.nih.nlm.ceb.util.CPatternLayout
+
+##
+#  See jakarta.apache.org/log4j/docs/api/index.html [PatternLayout] for notes
+##
+log4j.appender.R.layout.ConversionPattern=%r %p [%t] %c - %m%n
+
+log4j.appender.errors = org.apache.log4j.FileAppender
+log4j.appender.errors.File = ${user.home}${file.separator}ingestErrors.log
+log4j.appender.errors.Append = false
+log4j.appender.errors.layout = org.apache.log4j.SimpleLayout
+log4j.appender.errors.Threshold = ERROR

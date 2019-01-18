@@ -1,0 +1,14 @@
+
+MD5sums 1.2 freeware for Win9x/ME/NT/2000/XP+
+Copyright (C) 2001-2005 Jem Berkes - http://www.pc-tools.net/
+
+S-98-020376-2.svs                              d68baeb1cd4baeec520b791621bbbf45
+98A-06674-3.svs                                aa87247156816fb95d4895e5375c177c
+S-97-006900-2.svs                              5944b8af33505c3acd68a075bb677a64
+S-97-010341-3.svs                              75a5c1fe820c61732ad8af4ccb6ef256
+S-97-013348-2.svs                              2bfc353f6d28c5d39e283e7397188e7c
+S-97-014653-2.svs                              57715b38785352a783aa128f6612e0a7
+S-97-015052-2.svs                              a1c5fc75e7f925a37e41450164acb68b
+S-98-006730-2.svs                              5898228ece4e37e83e792802a6ea9bd0
+S-98-008752-2.svs                              d7d1bbf3dda024f4bb4d637530005968
+S-98-010350-2.svs                              c983a5ddeee475dc36615a81472c4be2

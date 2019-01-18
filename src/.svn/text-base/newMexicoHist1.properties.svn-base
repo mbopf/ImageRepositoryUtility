@@ -1,0 +1,48 @@
+# iru.properties
+# Contains information specific to the IRU scripts. 
+# This file is referenced by the build.xml file.
+
+# Main system configuration parameter(s)
+#    ${appName} defines the app.
+appName=iru
+context-path=${appName}
+
+# Server configuration parameters: 
+#    ${imgServer} determines which machine serves up the images
+#    ${dbServer} determines which database machine the servlet will access
+#    ${dbName} specifies the database to be used.
+imgServer=archive
+dbServer=archivestage
+dbName=iru
+
+# Client configuration parameter(s):
+serverUrl=http://${imgServer}.nlm.nih.gov
+imageUrlPrefix=${serverUrl}/testRepos/iru/newMexico/histology/
+inputDirectory=/media/KINGSTON/newMexico/
+outputDirectory=/nci/iru/newMexico/histology/
+datasetName=newMexico
+imageType=histology
+compressType=SVS
+compressRatio=
+roiFlag=false
+comment=New Mexico study (TEST)
+
+subdirectoryFlag=false
+inputFilter=svs
+
+inputMode=EXT
+copyMode=WRITE_NEW
+dbMode=WRITE_NEW
+
+# Path to CebCommon cvs directory - assumed that latest version is available
+# This likely needs to be changed to point to correct checkout. Longer term
+# solution would be to include all code in single tree...
+lib.dir.cebCommon=../../CebCommon/dist
+
+# Datasource information
+datasource.appPrepend=java:comp/env
+datasource.resource=jdbc/${appName}_${dbServer}_${dbName}
+data.JNDIName=jdbc/${appName}_${dbServer}_${dbName}
+data.dbDriver=com.mysql.jdbc.Driver
+data.dbServer=jdbc:mysql://${dbServer}.nlm.nih.gov/${dbName}
+data.dbLogin=iruUser

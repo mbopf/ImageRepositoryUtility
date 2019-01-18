@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 134
+.testOutput.properties.swp
+.ibc1.properties.swp
+.newMexicoHist1.properties.swp
+.ibcOrigZoomify.properties.swp
+.okStudy.properties.swp
+
+END

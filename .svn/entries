@@ -1,0 +1,59 @@
+10
+
+dir
+1299
+svn://ceb-stage-lx/IRU/trunk
+svn://ceb-stage-lx
+
+
+
+2009-12-16T21:34:16.000000Z
+1299
+mbopf
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+7b3a4e7a-32c9-ee1a-8275-fa8ee5ecface
+
+dist
+dir
+
+
+
+delete
+
+logs
+dir
+
+config
+dir
+
+doc
+dir
+
+md5
+dir
+
+lib
+dir
+
+nbproject
+dir
+
+src
+dir
+
+data
+dir
+

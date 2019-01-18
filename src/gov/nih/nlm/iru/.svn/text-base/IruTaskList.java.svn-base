@@ -1,0 +1,269 @@
+package gov.nih.nlm.iru;
+
+import gov.nih.nlm.ceb.data.DataSourceException;
+import gov.nih.nlm.ceb.util.MessageDigestHelper;
+
+import java.net.*;
+import java.io.*;
+import java.security.NoSuchAlgorithmException;
+import java.util.*;
+
+import org.apache.log4j.Logger;
+
+/**
+ * IruTaskList
+ *
+ * Created on December 6, 2005 by Mike Bopf
+ *
+ * @author mbopf
+ */
+public class IruTaskList
+{
+  /** Create static reference to application log */
+  private static final Logger LOGGER_ =
+          Logger.getLogger(IruTaskList.class.getName());
+  
+  /** Get system-independent file separator character */
+  public static final String FILE_SEPARATOR =
+          System.getProperty("file.separator");
+
+  /** enum defining the possible copy "modes" */
+  public enum CopyMode { NONE, WRITE_NEW, OVERWRITE }
+  
+  /** enum defining the possible database "modes" */
+  public enum DbMode { CHECK, WRITE_NEW, OVERWRITE }
+  
+  /** Creates a new instance of IruTaskList */
+  public IruTaskList()
+  {
+  }
+  
+  public void perform()
+     throws IOException, NoSuchAlgorithmException, DataSourceException
+  {
+    LOGGER_.debug("In perform method");
+    String inDir = IruResourceBundle.getINSTANCE_().getInputDirectory();
+    String outDir = IruResourceBundle.getINSTANCE_().getOutputDirectory();
+    String urlPrefix = IruResourceBundle.getINSTANCE_().getImageUrlPrefix();
+    String datasetName = IruResourceBundle.getINSTANCE_().getDatasetName();
+    String imageType = IruResourceBundle.getINSTANCE_().getImageType();
+    String compressType = IruResourceBundle.getINSTANCE_().getCompressType();
+    String compressRatio = IruResourceBundle.getINSTANCE_().getCompressRatio();
+    boolean roiFlag = IruResourceBundle.getINSTANCE_().getRoiFlag();
+    boolean subdirFlag = IruResourceBundle.getINSTANCE_().getSubdirectoryFlag();
+    String inputFilter = IruResourceBundle.getINSTANCE_().getInputFilter();
+    String comment = IruResourceBundle.getINSTANCE_().getComment();
+
+    CopyMode copyMode = 
+        CopyMode.valueOf(IruResourceBundle.getINSTANCE_().getCopyMode());
+    DbMode dbMode = 
+        DbMode.valueOf(IruResourceBundle.getINSTANCE_().getDbMode());
+    
+    LOGGER_.debug("\n\t inDir = " + inDir + "\n\t outDir = " + outDir + 
+      "\n\t urlPrefix = " + urlPrefix + "\n\t datasetName = " + datasetName + 
+      "\n\t subdirFlag = " + subdirFlag + "\n\t inputFilter = " + inputFilter + 
+      "\n\t imageType = " + imageType + 
+      "\n\t compressType = " + compressType +
+      "\n\t compressRatio = " + compressRatio +
+      "\n\t roiFlag = " + roiFlag + "\n\t comment = " + comment + "\n" +
+      "\n\t copyMode = " + copyMode + 
+      "\n\t dbMode = " + dbMode);
+    
+    // @todo - add in check for valid parameters
+
+    // Fix any path names that don't end in a file separator
+    if (!inDir.endsWith("/")) {
+      inDir = inDir + '/';
+    }
+    if (!outDir.endsWith("/")) {
+      outDir = outDir + '/';
+    }
+    if (!urlPrefix.endsWith("/")) {
+      urlPrefix = urlPrefix + '/';
+    }
+    
+    // Check for mis-matched modes (could create database inconsistency)
+    if (copyMode == CopyMode.OVERWRITE &&
+        dbMode   != DbMode.OVERWRITE        )
+    {
+      String msg = "Illegal combination of arguments: " +
+        "'dbMode' must be OVERWRITE if 'copyMode' is OVERWRITE";
+      LOGGER_.error(msg);
+      throw new IllegalArgumentException(msg);
+    }
+    
+    if (copyMode == CopyMode.WRITE_NEW || copyMode == CopyMode.OVERWRITE)
+    {
+      if (outDir != null && outDir.length() > 0)
+      {
+        LOGGER_.debug("Image prefix String = " + urlPrefix);
+        if (!(new File(outDir).exists()))
+        {
+          throw new IOException("output directory '" + outDir + "' does not exist");
+        }
+      }
+      else
+      {
+        String msg = "Attempting to copy without setting outputDirectory";
+        LOGGER_.error(msg);
+        throw new IllegalArgumentException(msg);
+      }
+    }
+    /**
+     * May need outDir to determine URL when writing to DB without copying.
+     * We might want to check that it always exists...
+     */
+//    else if (outDir != null && outDir.length() > 0)
+//    {
+//      String msg = "outDir is set although CopyMode is NONE";
+//      LOGGER_.error(msg);
+//      throw new IllegalArgumentException(msg);
+//    }
+    
+    // Construct an IruInputFilter and have it generate a list of files.
+    IruIOFileFilter iruInputFilter = 
+        new IruIOFileFilter(inputFilter, subdirFlag, inDir, outDir);
+    List<File> inputList = new ArrayList<File>();
+    List<File> outputList = new ArrayList<File>();
+    iruInputFilter.getFiles(inputList, outputList);
+    
+    if (inputList.size() == 0)
+    {
+        LOGGER_.warn("No Files matched input criteria. Exiting.");
+        System.exit(0);
+    }
+    
+//    // Create collection of files to process
+//    Collection<File> fileColl = FileUtils.listFiles(inDirFile, fileFilter, dirFilter);
+//    
+    // Loop through all files in collection and create Image element for each
+    for (int i=0; i < inputList.size(); i++)
+    {
+      File inputFile = inputList.get(i);
+      
+      // Note - requiring an outputDir value even with DbMode == CHECK
+      File outputFile = outputList.get(i);
+      String inputPath = inputFile.getCanonicalPath();
+      String outputFilename = outputFile.getName();
+      long len = inputFile.length();
+
+      String md5 = "";
+      long ingestTime = 0L;
+      boolean outFileExists = outputFile.exists();
+      
+      // Handle copy case: either overwriting or writing new
+      if ( copyMode == CopyMode.OVERWRITE ||
+          (copyMode == CopyMode.WRITE_NEW && !outFileExists))
+      {
+        /**
+         * NOTE - In the case of a MAP/rename, the original filename is not 
+         *        checked or deleted. This probably makes sense in the
+         *        OVERWRITE to delete the old one.
+         */
+        md5 = MessageDigestHelper.copyDigest(inputFile, outputFile);
+        LOGGER_.info("Copied file to = '" + outputFile.getCanonicalPath() + 
+                     "'; outFileExists = " + outFileExists);
+
+        // Check copied file's digest to validate
+        if (!MessageDigestHelper.checkDigest(md5, outputFile))
+        {
+          // MWB - need to recopy & check again
+          LOGGER_.error("Copied digest did NOT match for " + outputFilename);
+        }
+        else
+        {
+          LOGGER_.debug("Copied digest matched");
+        }
+        ingestTime = outputFile.lastModified();
+      }
+      // Otherwise, simply create the digest
+      else
+      {
+        md5 = MessageDigestHelper.createDigest(inputFile);
+        ingestTime = inputFile.lastModified();
+        
+        if (copyMode == CopyMode.WRITE_NEW && outFileExists)
+        {
+          LOGGER_.warn("File '" + outputFile.getCanonicalPath() + 
+                     "' exists and was NOT overwritten");
+        }
+      }
+
+      String urlString = urlPrefix + outputFilename;
+      // @todo - handle MalformedURLException
+      URL url = new URL(urlString);
+      
+      LOGGER_.debug("\n\t name = " + outputFilename + "\n\t len = " + len + 
+                    "\n\t md5 = " + md5 + "\n\t inputPath = " + inputPath +
+                    "\n\t url = " + url.toString());
+      
+      if (copyMode != CopyMode.NONE)
+      {
+        LOGGER_.debug("outputFile = " + outDir + outputFilename);
+      }
+      
+      ImageFile imageFile = new ImageFile(null, outputFilename, null, datasetName, 
+                            imageType, compressType, compressRatio, ingestTime, 
+                            roiFlag, len, md5, url, comment);
+      
+      // Verify that record doesn't already exist in DB
+      /** 
+       * @todo I'd rather we used a true DAOFactory that produced ImageFiles
+       *  - more of an actual DAO pattern. That way we could return a NULL object
+       *  instead of a NULL origFilename member.
+       */
+      ImageFile existingImg = new ImageFile();
+      /**
+       * We should possibly be checking against the inputFilename in a RENAME
+       * scenario.
+       */
+      existingImg.getByOrigFilename(outputFilename);
+      if (existingImg.getOrigFilename_() == null)
+      {
+        existingImg = null; // shorthand
+      }
+      
+      if (dbMode == DbMode.OVERWRITE && existingImg != null)
+      {
+        existingImg.delete();
+        imageFile.save();
+        LOGGER_.info("Deleted and overwrote origFilename = '" + outputFilename + 
+                     "' in DB; dbMode = " + dbMode);
+      }
+      else if ((dbMode == DbMode.WRITE_NEW || dbMode == DbMode.OVERWRITE) 
+                && existingImg == null)
+      {
+        imageFile.save();
+        LOGGER_.info("Saved new origFilename = '" + outputFilename + 
+                     "' to DB; dbMode = " + dbMode);
+      }
+      else if (dbMode == DbMode.WRITE_NEW && existingImg != null)
+      {
+        LOGGER_.warn("DB record for origFilename = '" + outputFilename + 
+                     "' exists - did NOT overwrite");
+      }
+      
+      if (existingImg != null)
+      {
+        if (existingImg.getMd5_().equals(md5))
+        {
+          LOGGER_.info("Digest matched for = " + outputFilename );
+        }
+        else
+        {
+          LOGGER_.error("Digests did NOT match for = " + outputFilename + 
+                       ";\n\t oldMd5 = " + existingImg.getMd5_() + "; new md5 = " +
+                       md5);
+        }
+      }
+      else // (existingImg == null)
+      {
+        if (dbMode == DbMode.CHECK)
+        {
+          LOGGER_.warn("Digest could not be performed - origFilename = '" +
+                       outputFilename + "' not found in database");
+        }
+      }
+    }
+  }
+}
